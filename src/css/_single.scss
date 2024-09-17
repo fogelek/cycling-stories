@@ -1,0 +1,150 @@
+@import "variables/palette";
+@import "variables/components";
+
+main {
+  article {
+    padding: 1.5rem;
+
+    @media screen and (max-width: 700px) {
+      padding: 1rem;
+    }
+
+    @media (max-width: 512px) {
+      padding-right: 0;
+      padding-left: 0;
+    }
+
+    > * {
+      margin: 0 0 1rem;
+
+      @media (max-width: 512px) {
+        margin-right: 1rem;
+        margin-left: 1rem;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    h1 {
+      width: -moz-fit-content;
+      width: fit-content;
+
+      &:has(+ .date-created) {
+        margin-bottom: 0;
+      }
+
+      + .date-created {
+        margin-bottom: 1rem;
+      }
+
+      span {
+        display: block;
+      }
+
+      .subtitle {
+        font-size: 0.5em;
+        line-height: 1.5em;
+      }
+
+      &::after {
+        @include underline(100%, $color-primary, $color-secondary);
+      }
+    }
+
+    h2 {
+      width: fit-content;
+
+      &::after {
+        @include underline(100%, $color-primary, $color-secondary);
+      }
+    }
+
+    .date-created {
+      font-size: 0.9rem;
+    }
+
+    h2,
+    h3 {
+      margin-top: 2rem;
+      margin-bottom: 0.7rem;
+    }
+
+    .image {
+       margin-bottom: 32px;
+      vertical-align: top;
+
+      img {
+        width: 100%;
+        border-radius: 10px;
+      }
+
+      @media (min-width: 1024px) {
+        &:has(+ .image) {
+          margin-right: 32px;
+        }
+
+        + .image,
+        &:has(+ .image) {
+          display: inline-block;
+          width: calc(100% / 2 - 16px);
+        }
+      }
+
+      &::after {
+        content: attr(title);
+        display: block;
+        text-align: right;
+        line-height: 1.3rem;
+        font-style: italic;
+      }
+    }
+
+    @media (max-width: 512px) {
+      pre,
+      .table-wrapper {
+        // sketchy weird number that kinda looks like it works; find better solution
+        width: 96%;
+        margin-right: 0;
+        margin-left: 0;
+        border-radius: 0;
+      }
+
+      pre,
+      td:first-of-type,
+      th:first-of-type {
+        border-left: 0;
+      }
+
+      pre,
+      td:last-of-type,
+      th:last-of-type {
+        border-right: 0;
+      }
+    }
+  }
+
+  a {
+    &,
+    &:visited,
+    &:hover {
+      border-bottom: 1px solid;
+      color: $color-primary-text;
+      font-size: 1.05rem;
+      line-height: 1.1rem;
+    }
+  }
+
+  li {
+    font-size: 1.05em;
+    line-height: 1.75em;
+  }
+
+  blockquote {
+    background: #0007;
+    border-radius: 0 0.7rem 0.7rem 0;
+    border-left: 2px solid $color-border-light;
+    padding: 0.5rem 1rem;
+  }
+}

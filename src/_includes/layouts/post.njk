@@ -1,0 +1,15 @@
+---
+layout: layouts/layout.njk
+---
+<article-box>
+    <h1>
+        <span class="title">{{ title }}</span>
+    </h1>
+    {% if date %}
+        <div class="date-created">{{ date | dateFilter }}</div>
+    {% endif %}
+    {% if thumb %}
+        {% image caption, thumb %}
+    {% endif %}
+    {{ content | safe }}
+</article-box>

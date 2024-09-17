@@ -1,0 +1,26 @@
+@import "variables/palette";
+
+$color-table-border: $color-border-light;
+
+td,
+th {
+  vertical-align: middle;
+  padding: 0.3rem;
+  border-left: 1px solid $color-table-border;
+
+  &:last-of-type {
+    border-right: 1px solid $color-table-border;
+  }
+}
+
+tr {
+  border-top: 1px solid $color-table-border;
+
+  &:last-of-type {
+    border-bottom: 1px solid $color-table-border;
+  }
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}

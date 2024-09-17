@@ -1,0 +1,284 @@
+@use "sass:color";
+
+$bg-light: rgb(77, 133, 182);
+$bg-dark: #191f2f;
+$handle-off: rgb(238, 203, 85);
+$handle-on: #ccc;
+$handle-craters: #999;
+$animation-time: 700ms;
+$transition-time: 350ms;
+
+@mixin animate($animation) {
+  animation: $animation;
+  animation-duration: $animation-time;
+}
+
+.controls {
+  position: fixed;
+  right: 0;
+  top: calc(min(7rem, 30vw) + 3rem);
+
+  .switch-container {
+    padding: 0.5em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 1em;
+  }
+}
+
+.switch {
+  display: flex;
+  cursor: pointer;
+  background-color: $bg-light;
+  fill: #fff;
+  font-size: 0.5rem;
+
+  @keyframes switchTurnOn {
+    from {
+      background-color: $bg-light;
+    }
+    60% {
+      background-color: $bg-dark;
+    }
+    to {
+      background-color: $bg-dark;
+    }
+  }
+
+  @keyframes switchTurnOff {
+    from {
+      background-color: $bg-dark;
+    }
+    60% {
+      background-color: $bg-light;
+    }
+    to {
+      background-color: $bg-light;
+    }
+  }
+
+  .background {
+    position: absolute;
+
+    .background-shades {
+      transform: translateX(0);
+
+      @keyframes shadesTurnOn {
+        from {
+          transform: translateX(0);
+        }
+        50% {
+          transform: translateX(8.2em);
+        }
+        to {
+          transform: translateX(8em);
+        }
+      }
+
+      @keyframes shadesTurnOff {
+        from {
+          transform: translateX(8em);
+        }
+        50% {
+          transform: translateX(-0.2em);
+        }
+        to {
+          transform: translateX(0);
+        }
+      }
+    }
+  }
+
+  &,
+  .background,
+  .shadow-container {
+    width: 8em;
+    height: 4em;
+    border-radius: 4em;
+  }
+
+  .handle {
+    display: block;
+    width: 3em;
+    height: 3em;
+    margin: 0.5em;
+    border-radius: 50%;
+    background-color: $handle-off;
+    box-shadow: -1px -3px 2px 0px rgb(0 0 0 /50%) inset,
+    1px 2px 2px 1px rgb(255 255 255 /69%) inset;
+
+    @keyframes handleTurnOn {
+      from {
+        transform: translateX(0);
+        background-color: $handle-off;
+      }
+      50% {
+        transform: translateX(4.2em);
+        background-color: $handle-on;
+      }
+      to {
+        transform: translateX(4em);
+        background-color: $handle-on;
+      }
+    }
+
+    @keyframes handleTurnOff {
+      from {
+        transform: translateX(4em);
+        background-color: $handle-on;
+      }
+      50% {
+        transform: translateX(-0.2em);
+        background-color: $handle-off;
+      }
+      to {
+        transform: translateX(0);
+        background-color: $handle-off;
+      }
+    }
+  }
+
+  .stars {
+    @keyframes starsTurnOn {
+      from {
+        transform: translateY(-5em);
+      }
+      50% {
+        transform: translateY(0.2em);
+      }
+      to {
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes starsTurnOff {
+      from {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-5em);
+      }
+      to {
+        transform: translateY(-5em);
+      }
+    }
+  }
+
+  .clouds {
+    .cloud-outer {
+      fill: color.adjust($bg-light, $lightness: 40%);
+    }
+    .cloud-inner {
+      fill: color.adjust($bg-light, $lightness: 49%);
+    }
+
+    @keyframes cloudsTurnOn {
+      from {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(5em);
+      }
+      to {
+        transform: translateY(5em);
+      }
+    }
+
+    @keyframes cloudsTurnOff {
+      from {
+        transform: translateY(5em);
+      }
+      50% {
+        transform: translateY(-0.2em);
+      }
+      to {
+        transform: translateY(0);
+      }
+    }
+  }
+
+  .craters {
+    fill: $handle-craters;
+    transition: $transition-time opacity;
+  }
+
+  &.on {
+    background-color: $bg-dark;
+
+    @include animate(switchTurnOn);
+
+    .handle {
+      transform: translateX(4em);
+      background-color: $handle-on;
+
+      @include animate(handleTurnOn);
+    }
+
+    .background-shades {
+      transform: translateX(8em);
+
+      @include animate(shadesTurnOn);
+    }
+
+    .stars {
+      transform: translateY(0);
+
+      @include animate(starsTurnOn);
+    }
+
+    .clouds {
+      transform: translateY(5em);
+
+      @include animate(cloudsTurnOn);
+    }
+  }
+
+  &.off {
+    @include animate(switchTurnOff);
+
+    .handle {
+      transform: translateX(0);
+      background-color: $handle-off;
+
+      @include animate(handleTurnOff);
+    }
+
+    .background-shades {
+      @include animate(shadesTurnOff);
+    }
+
+    .stars {
+      transform: translateY(-5em);
+
+      @include animate(starsTurnOff);
+    }
+
+    .clouds {
+      transform: translateY(0);
+
+      @include animate(cloudsTurnOff);
+    }
+
+    .craters {
+      opacity: 0;
+    }
+  }
+
+  .shadow-container {
+    display: block;
+    position: absolute;
+    box-shadow: -4px 4px 5px 0px rgba(0, 0, 0, 0.4) inset,
+    3px -3px 5px -1px rgba(0, 0, 0, 0.17) inset;
+  }
+
+  &.init {
+    &,
+    .handle,
+    .background-shades,
+    .stars,
+    .clouds {
+      animation-duration: 0ms;
+    }
+  }
+}

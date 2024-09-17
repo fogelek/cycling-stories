@@ -1,0 +1,85 @@
+@import "variables/palette";
+
+nav.main,
+main,
+.cookie-banner .content,
+footer {
+  --width: 1024px;
+  --margin: 3rem;
+
+  @media screen and (max-width: 700px) {
+    --margin: 2rem;
+  }
+
+  @media screen and (max-width: 512px) {
+    --margin: 1rem;
+  }
+}
+
+nav.main,
+main,
+.cookie-banner .content {
+  width: min(var(--width), calc(100% - (2 * var(--margin))));
+  margin: var(--margin) auto;
+}
+
+nav.main {
+  @media screen and (max-width: 1200px) {
+    --margin: 1.5rem;
+  }
+
+  @media screen and (max-width: 1000px) {
+    --width: 512px;
+    --margin: 3rem;
+  }
+}
+
+main,
+.cookie-banner .content {
+  @media screen and (max-width: 700px) {
+    --margin-filled: min(1rem, 5vw);
+
+    width: calc(100% - (2 * var(--margin-filled)));
+    margin: var(--margin) var(--margin-filled);
+  }
+
+  @media screen and (max-width: 512px) {
+    width: 100%;
+    margin: 2rem 0;
+
+    .box {
+      &,
+      &::before {
+        border-radius: 0;
+      }
+    }
+  }
+}
+
+.defs {
+  display: none;
+}
+
+.up-arrow {
+  position: fixed;
+  right: -3rem;
+  bottom: 1rem;
+  z-index: 10;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+  background: $color-background-white;
+  cursor: pointer;
+  fill: $color-foreground;
+  transition: 300ms ease;
+
+  &.visible {
+    right: 1rem;
+  }
+
+  &:hover {
+    background: $color-background-white-hover;
+    fill: $color-background;
+  }
+}

@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZRT45XSYFR"></script>
+    <script>
+        cookieConsentName = "cyclingstories-consent";
+        function execCookies() {
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', 'G-ZRT45XSYFR',  {'anonymize_ip': true});
+        }
+        if (window.localStorage.getItem(cookieConsentName) === '1') {
+            execCookies();
+        }
+    </script>
+    <meta charset="UTF-8">
+    <meta name="description" content="My personal cycling journey">
+    <meta name="keywords" content="cycling, bikepacking, bike, road">
+    <meta name="author" content="Patrycja Fogelman">
+    <meta name="viewport" content="width=device-width">
+    <meta name="generator" content="Eleventy">
+    {% if title %}
+    <meta property='og:title' content='Cycling Stories - {{ title }}'/>
+    <meta property='og:image' content='{{ metadata.url }}/images/thumbnails/{{ title | slug }}.png'/>
+    <meta property='og:description' content='{{ lead }}'/>
+    <meta property='og:url' content='{{ metadata.url }}/{{ title | slug }}'/>
+    {%  else %}
+    <meta property='og:title' content='Making UI'/>
+    <meta property='og:image' content='{{ metadata.url }}/images/thumbnails/index.png'/>
+    <meta property='og:description' content='My personal cycling journey'/>
+    <meta property='og:url' content='{{ metadata.url }}'/>
+    {%  endif %}
+    <meta property='og:image:width' content='1200' />
+    <meta property='og:image:height' content='627' />
+    <meta property="og:type" content="website" />
+    <title>{{ metadata.title }}</title>
+    <link rel="stylesheet" href="{{ '/css/style.css' | url }}"/>
+    {% if stylesheet %}
+        <link rel="stylesheet" href="{{ '/css/content/' + stylesheet + '.css' | url}}"/>
+    {% endif %}
+    <script type="text/javascript">
+        if ('paintWorklet' in CSS){
+            CSS.paintWorklet.addModule("/js/gradientee-worklet.min.js");
+        }
+    </script>
+    <script type="text/javascript" src="/js/gradientee.min.js"></script>
+</head>
+<body>
+<svg class="defs" viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <filter id="blurBg">
+            <feGaussianBlur stdDeviation="1" />
+        </filter>
+        <g id="bg">
+            <circle r="80" cx="20" cy="20" opacity="20%" filter="url(#blurBg)" />
+            <circle r="110" cx="20" cy="20" opacity="30%" filter="url(#blurBg)" />
+            <circle r="140" cx="20" cy="20" opacity="40%" filter="url(#blurBg)" />
+        </g>
+        <g>
+            <path
+                    id="star"
+                    d="M 5,0
+          A 10,10 0 0,0 10,5
+          A 10,10 0 0,0 5,10
+          A 10,10 0 0,0 0,5
+          A 10,10 0 0,0 5,0"
+            ></path>
+            <use href="#star" transform="scale(1.5)" id="star-large" />
+            <use href="#star" transform="scale(0.7)" id="star-small" />
+            <use href="#star" transform="scale(0.5)" id="star-tiny" />
+        </g>
+        <g id="stars">
+            <use href="#star-tiny" x="60" y="15" />
+            <use href="#star-tiny" x="53" y="-10" />
+            <use href="#star-tiny" x="103" y="40" />
+            <use href="#star-small" x="90" y="20" />
+            <use href="#star-small" x="15" y="16" />
+            <use href="#star-small" x="25" y="40" />
+            <use href="#star" x="80" y="-10" />
+            <use href="#star" x="63" y="37" />
+            <use href="#star-large" x="25" y="-5" />
+            <use href="#star-large" x="108" y="3" />
+        </g>
+        <g>
+            <path
+                    id="cloud-outer"
+                    d="M0,65
+              A32,32 0 0,1 45,40
+              A40,40 0 0,1 90,30
+              A25,25 0 0,1 130,30
+              A15,15 0 0,1 150,20
+              A25,25 0 0,1 170,10
+              A20,20 0 0,1 200,-10
+              L200,0
+              L200,65"
+            />
+            <path
+                    id="cloud-inner"
+                    d="M0,65
+              A32,32 0 0,1 45,50
+              A40,40 0 0,1 87,45
+              A55,55 0 0,1 145,43
+              A15,15 0 0,1 150,38
+              A30,30 0 0,1 170,30
+              A30,30 0 0,1 200,13
+              L200,0
+              L200,65"
+            />
+        </g>
+        <g id="craters"></g>
+    </defs>
+    <div class="bg-container">
+        <canvas></canvas>
+    </div>
+    {% if title %}
+        {% include "partials/post.njk" %}
+    {% else %}
+        {% include "partials/main.njk" %}
+    {% endif %}
+    <div class="controls">
+        <div class="switch-container">
+            <div class="switch off init">
+                <svg viewBox="0 0 200 40" class="background">
+                    <use href="#bg" class="background-shades" />
+                    <use href="#stars" class="stars" />
+                    <g class="clouds">
+                        <use href="#cloud-outer" class="cloud-outer" />
+                        <use href="#cloud-inner" class="cloud-inner" />
+                    </g>
+                </svg>
+                <div class="handle">
+                    <svg viewBox="0 0 20 20" width="3em" height="3em" class="craters">
+                        <circle r="3.5" cx="7" cy="12" />
+                        <circle r="2.5" cx="11" cy="5" />
+                        <circle r="2" cx="14.5" cy="12" />
+                    </svg>
+                </div>
+                <span class="shadow-container"></span>
+            </div>
+        </div>
+        <div class="reader-mode">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+                <path d="M15.8177 10H18.4989C19.3273 10 19.9989 10.6716 19.9989 11.5C19.9989 12.2594 19.4346 12.887 18.7024 12.9863L18.4989 13H15.8177C15.4678 13 15.1313 13.1222 14.8644 13.3419L14.7131 13.4852L10.566 17.998L17.4977 17.9991C19.817 17.9991 21.7265 19.7537 21.9712 22.008H26.0265C26.2712 19.7537 28.1807 17.9991 30.5 17.9991L37.454 17.998L33.2875 13.4828C33.0509 13.2263 32.7339 13.062 32.3924 13.0144L32.1851 13H29.4935C28.6651 13 27.9935 12.3284 27.9935 11.5C27.9935 10.7406 28.5578 10.113 29.2899 10.0137L29.4935 10H32.1851C33.3157 10 34.4001 10.4254 35.2267 11.1836L35.4924 11.4485L42.7762 19.3428C42.8767 19.4518 42.958 19.5716 43.0203 19.6981C43.632 20.4668 43.9977 21.4403 43.9977 22.4991V29.4922C43.9977 33.082 41.0875 35.9922 37.4977 35.9922H32.5C28.9101 35.9922 26 33.082 26 29.4922L25.998 25.008H21.996L21.9977 29.4922C21.9977 33.082 19.0875 35.9922 15.4977 35.9922H10.5C6.91015 35.9922 4 33.082 4 29.4922V22.4991C4 21.3759 4.41153 20.3488 5.09203 19.5603L5.16765 19.45L5.25541 19.3452L12.5039 11.4555C13.2709 10.6207 14.3212 10.1096 15.4418 10.0157L15.8177 10H18.4989H15.8177ZM17.4977 20.9991H8.5C7.67157 20.9991 7 21.6707 7 22.4991V29.4922C7 31.4252 8.567 32.9922 10.5 32.9922H15.4977C17.4307 32.9922 18.9977 31.4252 18.9977 29.4922V22.4991C18.9977 21.6707 18.3261 20.9991 17.4977 20.9991ZM39.4977 20.9991H30.5C29.6716 20.9991 29 21.6707 29 22.4991V29.4922C29 31.4252 30.567 32.9922 32.5 32.9922H37.4977C39.4307 32.9922 40.9977 31.4252 40.9977 29.4922V22.4991C40.9977 21.6707 40.3261 20.9991 39.4977 20.9991Z"/>
+                <line x1="10" x2="50" y1="110" y2="150" stroke="orange" stroke-width="5"/>
+            </svg>
+        </div>
+    </div>
+    <footer>
+        <a href="/" class="root-link">
+            <h3>{{ metadata.title }}</h3>
+        </a>
+        {% include "partials/topmenu.njk" %}
+        <a href="#" class="reset-cookie-consent" onclick="cookieConsent(null)">Reset cookie settings</a>
+    </footer>
+    <div id="go-to-top" class="up-arrow">
+        <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-chevron-up" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+        </svg>
+    </div>
+    <div id="cookie-banner" class="cookie-banner">
+        <div class="content">
+            <div class="text">
+                <h3>This site uses cookies</h3>
+                <span>
+                    In order to gather statistical data, this page uses cookies<br/>
+                    You can change your preferences here
+                </span>
+            </div>
+            <div class="actions">
+                <button onclick="cookieConsent(0)">Reject</button>
+                <button onclick="cookieConsent(1)" class="primary">Accept</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="/js/main.js"></script>
+</body>
+</html>

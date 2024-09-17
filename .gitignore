@@ -1,0 +1,9 @@
+node_modules/
+dist/
+thumbnails/
+.idea/
+.code/
+
+*.css
+*.css.map
+.DS_Store
