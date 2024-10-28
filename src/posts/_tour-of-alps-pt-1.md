@@ -1,12 +1,20 @@
----
-tags:
-  - post
-  - bikepacking
-  - cookbook
-title: Tour of Alps - pt. 1
-thumb: https://wildrowantree.eu/wp-content/uploads/2020/10/1CB72362-AC09-4350-945D-0E852A6B1222.jpeg
-caption: Karkonosze from Zawory
-date: 2024-09-30
+[//]: # (---)
+
+[//]: # (tags:)
+
+[//]: # (  - post)
+
+[//]: # (  - bikepacking)
+
+[//]: # (  - cookbook)
+
+[//]: # (title: Tour of Alps - pt. 1)
+
+[//]: # (thumb: https://wildrowantree.eu/wp-content/uploads/2020/10/1CB72362-AC09-4350-945D-0E852A6B1222.jpeg)
+
+[//]: # (caption: Karkonosze from Zawory)
+
+[//]: # (date: 2024-09-30)
 ---
 
 Every trip, every tour, every adventure starts with a dream. Dream transforms into a daring idea. And dreams and ideas have a tendency to persist, to slowly work their way into becoming a plan. This dream started about when I came back from my very first trip to Alps in 2021. I got but a small taste of what’s it like to cycle the big mountains. I got hooked instantly, and I wanted more. Way more. I started drawing routes. One-day trips. Big days in the saddle. But not having a car, and not being comfortable with driving at all I knew these were probably not achievable. I’ve shyly drawn my first route from Bergamo to Stelvio. And scratched it immediately. The idea of riding Alpine cols with luggage felt ludicrous at best. But year after year it was coming back, every time stronger then before. And one cold winter day I realized I really, really need to get back. I felt Alps calling me, and I just said... Fuck it, we ball.
