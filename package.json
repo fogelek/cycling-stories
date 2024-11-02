@@ -14,8 +14,8 @@
     "social-images": "eleventy-social-images --siteName 'Cycling Stories' --outputDir dist --dataFile thumbnails/pages.json --imageDir images/thumbnails --templatePath thumbnails/thumbnail.html --width 1200 --height 627"
   },
   "dependencies": {
-    "@11ty/eleventy": "^1.0.2",
-    "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-plugin-rss": "^2.0.2",
     "@11tyrocks/eleventy-plugin-social-images": "^0.4.1",
     "autoprefixer": "^10.4.4",
     "cssnano": "^5.1.7",

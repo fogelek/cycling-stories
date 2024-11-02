@@ -2,7 +2,7 @@
 layout: layouts/layout.njk
 ---
 <ul class="posts">
-{%- for post in collections.post -%}
+{%- for post in collections.posts | reverse -%}
     <li>
         <a href="{{ post.url }}">
             <article-box animate>
