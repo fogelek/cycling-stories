@@ -37,6 +37,10 @@ module.exports = function (eleventyConfig) {
     return `<div class="image" title="${alt}"><img src="${url}" alt="${alt}"></div>`;
   });
 
+  eleventyConfig.addShortcode("image-single", function (alt, url) {
+    return `<div class="image-single" title="${alt}"><img src="${url}" alt="${alt}"></div>`;
+  });
+
   eleventyConfig.addNunjucksAsyncFilter(
     "jsmin",
     async function (code, callback) {

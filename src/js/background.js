@@ -25,8 +25,8 @@ if (!("paintWorklet" in CSS)) {
       gradientee(ctx, {
         width: canvas.clientWidth,
         height: canvas.clientHeight,
-        colorFrom: "#0b0",
-        colorTo: "#00b",
+        colorFrom: "#e400a6",
+        colorTo: "#3b0099",
         boxSize: boxSize,
         seed: 3200,
         deflectionLevel: 20,
