@@ -6,6 +6,11 @@ const closeButton = document.querySelector("dialog .close");
 const images = [];
 let selectedImage = 0;
 
+// Variables to track the touch positions
+let touchStartX = 0;
+let touchEndX = 0;
+const touchBuffer = 20;
+
 const selectImage = (image) => {
   dialog.querySelector("p").innerText = image.caption;
   dialog.querySelector("img").src = image.url;
@@ -67,3 +72,24 @@ dialog.addEventListener("keydown", function (event) {
 closeButton.addEventListener("click", () => {
   dialog.close();
 });
+
+// Function to handle touch start
+const handleTouchStart = (event) => {
+  touchStartX = event.changedTouches[0].screenX;
+};
+
+// Function to handle touch end
+const handleTouchEnd = (event) => {
+  touchEndX = event.changedTouches[0].screenX;
+
+  // Detect swipe direction
+  if (touchEndX + touchBuffer < touchStartX) {
+    nextImage();
+  } else if (touchEndX > touchStartX + touchBuffer) {
+    previousImage();
+  }
+};
+
+// Add event listeners for touch events
+dialog.addEventListener("touchstart", handleTouchStart, false);
+dialog.addEventListener("touchend", handleTouchEnd, false);
