@@ -1,30 +1,38 @@
 @import "variables/palette";
 
 @keyframes open {
-  0%   { transform: scale(0); }
-  100% { transform: scale(1); }
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 @keyframes close {
-  0%   { transform: scale(1); }
-  100% { transform: scale(0); }
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
 }
 
 dialog {
   width: 100vw;
   height: 100%;
-  background-color: $color-background-light-smoke;
-  color: $color-black;
+  background-color: $color-background-dialog;
   backdrop-filter: blur(10px);
   justify-items: center;
   align-content: center;
-  transition:
-          display 1s allow-discrete,
-          overlay 1s allow-discrete;
-  animation: close var(--animation-duration) cubic-bezier(.25,0,.3,1) forwards;
+  transition: display var(--animation-duration) allow-discrete,
+    overlay var(--animation-duration) allow-discrete;
+  animation: close var(--animation-duration) cubic-bezier(0.25, 0, 0.3, 1)
+    forwards;
 
   &[open] {
-    animation: open var(--animation-duration) cubic-bezier(.25,0,.3,1) forwards;
+    animation: open var(--animation-duration) cubic-bezier(0.25, 0, 0.3, 1)
+      forwards;
   }
 
   .image-container {
@@ -41,7 +49,7 @@ dialog {
     border: none;
 
     &:hover {
-      background-color: $color-background-smoke;
+      background-color: $color-background-dialog;
       box-shadow: none;
     }
 
@@ -97,8 +105,9 @@ dialog {
     }
   }
 
-  p {
-    color: $color-foreground;
+  p,
+  button {
+    color: $color-foreground-dialog;
   }
 }
 

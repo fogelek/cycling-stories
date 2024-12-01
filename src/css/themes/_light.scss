@@ -1,0 +1,25 @@
+@use "sass:color";
+
+// stylelint-disable color-no-hex -- palette file
+
+@import "./common";
+
+@mixin theme-light {
+  --color-background: #f8f8f2;
+  --color-foreground: #282a36;
+
+  --color-primary-background-light: #{color.adjust(
+      $color-primary-background,
+      $whiteness: 15%
+    )};
+
+  --color-middle: color.mix($color-primary, $color-secondary, 40%);
+  --color-primary-text: #{$color-secondary};
+  --color-border-light: #{$color-secondary};
+  --color-background-smoke: #fffc;
+  --color-background-light-smoke: #fff9;
+  --color-background-white: #fff4;
+  --color-background-white-hover: #fff9;
+  --color-box-background: #fff;
+  --color-shadow: #000;
+}

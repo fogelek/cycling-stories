@@ -17,7 +17,8 @@ button {
 
   &.primary {
     border-color: $color-primary-background-light;
-    background: color.adjust($color-primary, $lightness: -30%);
+    background: $color-primary-button;
+    color: $color-foreground-dialog;
     box-shadow: none;
 
     &:hover {

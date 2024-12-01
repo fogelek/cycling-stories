@@ -1,30 +1,22 @@
 @use "sass:color";
 
-// stylelint-disable color-no-hex -- palette file
+@import "../themes/common";
 
-$color-background: #282a36;
-$color-foreground: #f8f8f2;
-$color-primary: #ff4bce;
-$color-secondary: #6300ff;
-$color-primary-background: color.adjust($color-primary, $lightness: -20%);
-$color-secondary-background: color.adjust($color-secondary, $lightness: -20%);
-$color-primary-background-light: color.adjust(
-  $color-primary-background,
-  $whiteness: 15%
-);
-$color-secondary-background-light: color.adjust(
-  $color-secondary-background,
-  $whiteness: 15%
-);
-$color-middle: color.mix($color-primary, $color-secondary, 40%);
-$color-primary-text: #a8ff60;
-$color-secondary-text: #96cbfe;
-$color-border-light: #ff8ade;
-$color-background-smoke: #000c;
-$color-background-light-smoke: #0009;
-$color-background-white: #fff4;
-$color-background-white-hover: #fff9;
-$color-black: #000;
+$color-background: var(--color-background);
+$color-foreground: var(--color-foreground);
+$color-primary-button: var(--color-primary-button);
+$color-primary-background-light: var(--color-primary-background-light);
+$color-middle: var(--color-middle);
+$color-primary-text: var(--color-primary-text);
+$color-border-light: var(--color-border-light);
+$color-background-smoke: var(--color-background-smoke);
+$color-background-light-smoke: var(--color-background-light-smoke);
+$color-background-white: var(--color-background-white);
+$color-background-white-hover: var(--color-background-white-hover);
+$color-box-background: var(--color-box-background);
+$color-shadow: var(--color-shadow);
+$color-background-dialog: var(--color-background-dialog);
+$color-foreground-dialog: var(--color-foreground-dialog);
 
 @mixin box-colors-reset {
   background: inherit;

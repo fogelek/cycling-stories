@@ -10,6 +10,7 @@
   height: 8.5rem;
   background: $color-background-smoke;
   transition: 500ms;
+  backdrop-filter: blur(8px);
 
   @media screen and (max-width: 660px) {
     height: fit-content;

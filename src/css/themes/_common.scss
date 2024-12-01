@@ -1,0 +1,16 @@
+@use "sass:color";
+
+$color-primary: #ff4bce;
+$color-secondary: #6300ff;
+$color-primary-background: color.adjust($color-primary, $lightness: -20%);
+$color-secondary-background: color.adjust($color-secondary, $lightness: -20%);
+
+@mixin theme-common {
+  --color-primary: #{$color-primary};
+  --color-secondary: #{$color-secondary};
+  --color-primary-background: #{$color-primary-background};
+  --color-secondary-background: #{$color-secondary-background};
+  --color-primary-button: #{color.adjust($color-primary, $lightness: -30%)};
+  --color-background-dialog: #0009;
+  --color-foreground-dialog: #f8f8f2;
+}

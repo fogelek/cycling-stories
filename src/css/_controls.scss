@@ -69,16 +69,16 @@ $transition-time: 350ms;
           transform: translateX(0);
         }
         50% {
-          transform: translateX(8.2em);
+          transform: translateX(19.2em);
         }
         to {
-          transform: translateX(8em);
+          transform: translateX(19em);
         }
       }
 
       @keyframes shadesTurnOff {
         from {
-          transform: translateX(8em);
+          transform: translateX(19em);
         }
         50% {
           transform: translateX(-0.2em);
@@ -100,13 +100,13 @@ $transition-time: 350ms;
 
   .handle {
     display: block;
-    width: 3em;
-    height: 3em;
-    margin: 0.5em;
+    width: 2.5em;
+    height: 2.5em;
+    margin: 0.8em;
     border-radius: 50%;
     background-color: $handle-off;
     box-shadow: -1px -3px 2px 0px rgb(0 0 0 /50%) inset,
-    1px 2px 2px 1px rgb(255 255 255 /69%) inset;
+      1px 2px 2px 1px rgb(255 255 255 /69%) inset;
 
     @keyframes handleTurnOn {
       from {
@@ -142,7 +142,7 @@ $transition-time: 350ms;
   .stars {
     @keyframes starsTurnOn {
       from {
-        transform: translateY(-5em);
+        transform: translateY(-10em);
       }
       50% {
         transform: translateY(0.2em);
@@ -157,10 +157,10 @@ $transition-time: 350ms;
         transform: translateY(0);
       }
       50% {
-        transform: translateY(-5em);
+        transform: translateY(-10em);
       }
       to {
-        transform: translateY(-5em);
+        transform: translateY(-10em);
       }
     }
   }
@@ -178,22 +178,22 @@ $transition-time: 350ms;
         transform: translateY(0);
       }
       50% {
-        transform: translateY(5em);
+        transform: translateY(9em);
       }
       to {
-        transform: translateY(5em);
+        transform: translateY(9em);
       }
     }
 
     @keyframes cloudsTurnOff {
       from {
-        transform: translateY(5em);
+        transform: translateY(9em);
       }
       50% {
-        transform: translateY(-0.2em);
+        transform: translateY(0.8em);
       }
       to {
-        transform: translateY(0);
+        transform: translateY(1em);
       }
     }
   }
@@ -216,7 +216,7 @@ $transition-time: 350ms;
     }
 
     .background-shades {
-      transform: translateX(8em);
+      transform: translateX(19em);
 
       @include animate(shadesTurnOn);
     }
@@ -228,7 +228,7 @@ $transition-time: 350ms;
     }
 
     .clouds {
-      transform: translateY(5em);
+      transform: translateY(9em);
 
       @include animate(cloudsTurnOn);
     }
@@ -249,13 +249,13 @@ $transition-time: 350ms;
     }
 
     .stars {
-      transform: translateY(-5em);
+      transform: translateY(-10em);
 
       @include animate(starsTurnOff);
     }
 
     .clouds {
-      transform: translateY(0);
+      transform: translateY(1em);
 
       @include animate(cloudsTurnOff);
     }
@@ -269,7 +269,7 @@ $transition-time: 350ms;
     display: block;
     position: absolute;
     box-shadow: -4px 4px 5px 0px rgba(0, 0, 0, 0.4) inset,
-    3px -3px 5px -1px rgba(0, 0, 0, 0.17) inset;
+      3px -3px 5px -1px rgba(0, 0, 0, 0.17) inset;
   }
 
   &.init {

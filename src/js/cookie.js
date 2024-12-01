@@ -18,13 +18,11 @@ function deleteAllCookies() {
 function cookieConsent(value) {
   if (value === null) {
     window.localStorage.removeItem(cookieConsentName);
+    window.localStorage.removeItem(darkmodeName);
     deleteAllCookies();
     element.classList.add("visible");
   } else {
     window.localStorage.setItem(cookieConsentName, value);
-    if (value) {
-      execCookies();
-    }
     if (element.classList.contains("visible")) {
       element.classList.remove("visible");
     }

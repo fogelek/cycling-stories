@@ -7,14 +7,14 @@
   align-items: center;
   height: 100%;
 
-  .github,
+  .strava,
   .instagram {
     > svg {
       fill: $color-foreground;
     }
   }
 
-  .github,
+  .strava,
   .instagram,
   .avatar,
   .avatar > img {
@@ -22,7 +22,7 @@
     height: 2.25em;
   }
 
-  .github,
+  .strava,
   .instagram,
   .avatar {
     transition: 0.3s transform ease;

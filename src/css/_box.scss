@@ -17,7 +17,7 @@ article-box {
     grid-column: 1;
     border-radius: 18px;
     background: linear-gradient(90deg, $color-secondary, $color-primary);
-    box-shadow: 3px 3px 15px 3px $color-black;
+    box-shadow: 3px 3px 15px 3px $color-shadow;
     opacity: 0.8;
 
     &::before {
@@ -28,7 +28,7 @@ article-box {
       width: 100%;
       height: 100%;
       border-radius: 10px;
-      background: $color-black;
+      background: $color-box-background;
       transition: 300ms ease;
     }
   }
