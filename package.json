@@ -12,7 +12,7 @@
     "eleventy:build": "eleventy",
     "start": "npm run css:dev & npm run eleventy:serve",
     "build": "npm run css:prod && npm run eleventy:build && npm run js:prod && npm run social-images",
-    "social-images": "eleventy-social-images --siteName 'Cycling Stories' --outputDir dist --dataFile thumbnails/pages.json --imageDir images/thumbnails --templatePath thumbnails/thumbnail.html --width 1200 --height 627"
+    "social-images": "eleventy-social-images --siteName 'Cycling Stories' --outputDir dist --dataFile thumbnails/pages.json --imageDir images/thumbnails --templatePath thumbnails/thumbnail.html --width 800 --height 550"
   },
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
