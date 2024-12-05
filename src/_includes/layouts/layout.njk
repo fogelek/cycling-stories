@@ -1,10 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <script>
-        cookieConsentName = "cyclingstories-consent";
-        darkmodeName = "cyclingstories-darkmode";
-    </script>
     <meta charset="UTF-8">
     <meta name="description" content="My personal cycling journey">
     <meta name="keywords" content="cycling, bikepacking, bike, road">
@@ -17,7 +13,7 @@
     <meta property='og:description' content='{{ lead }}'/>
     <meta property='og:url' content='{{ metadata.url }}/{{ title | slug }}'/>
     {%  else %}
-    <meta property='og:title' content='Making UI'/>
+    <meta property='og:title' content='Cycling Stories'/>
     <meta property='og:image' content='{{ metadata.url }}/images/thumbnails/index.png'/>
     <meta property='og:description' content='My personal cycling journey'/>
     <meta property='og:url' content='{{ metadata.url }}'/>
@@ -118,7 +114,7 @@
             <h3>{{ metadata.title }}</h3>
         </a>
         {% include "partials/topmenu.njk" %}
-        <a href="#" class="reset-cookie-consent" onclick="cookieConsent(null)">Reset cookie settings</a>
+        <a href="#" id="cookieReset" class="reset-cookie-consent">Reset cookie settings</a>
     </footer>
     <div id="go-to-top" class="up-arrow">
         <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-chevron-up" viewBox="0 0 16 16">
@@ -135,8 +131,8 @@
                 </span>
             </div>
             <div class="actions">
-                <button onclick="cookieConsent(0)">Reject</button>
-                <button onclick="cookieConsent(1)" class="primary">Accept</button>
+                <button id="cookieReject">Reject</button>
+                <button id="cookieAccept" class="primary">Accept</button>
             </div>
         </div>
     </div>

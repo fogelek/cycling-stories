@@ -7,7 +7,7 @@ layout: layouts/layout.njk
         <a href="{{ post.url }}">
             <article-box animate>
               <h2>{{ post.data.title }}</h2>
-                {% image post.data.caption, post.data.thumb %}
+                {% image post.data.caption, "thumbnail", post.url %}
             </article-box>
         </a>
     </li>

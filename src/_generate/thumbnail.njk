@@ -28,20 +28,14 @@ eleventyExcludeFromCollections: true
     </div>
     <header>
         <a href="/">
-        <h2>
-            <span class="title">{{ metadata.title }}</span>
-            <span class="subtitle">{{ metadata.subtitle }}</span>
-        </h2>
-    </a>
+            <h1 class="title">{{ metadata.title }}</h1>
+            <h2 class="subtitle">{{ metadata.title }}</h2>
+        </a>
     </header>
     <main>
-        <article-box>
-            <article>
-        <h1 data-title>{{ metadata.title }}</h1>
-    </article>
-    <div class="box"></div>
-    </article-box>
+        <span data-thumbnail><img width="440" height="330" src="media/the-sudety-adventure.webp"></span>
     </main>
+
     <script>
     const canvas = document.querySelector(".bg-container canvas");
       canvas.width = document.documentElement.clientWidth;

@@ -5,7 +5,7 @@ title: About Me
 stylesheet: about-me
 ---
 
-<img src="/images/av.jpeg" alt="Patrycja" title="Patrycja"/>
+<img src="/images/av.webp" alt="Patrycja" title="Patrycja"/>
 <div class="about-me-details">
     <h2>Patrycja</h2>
     <p><strong>Road cyclist, mountain runner, Software Engineer</strong></p>

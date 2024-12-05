@@ -28,3 +28,14 @@ function cookieConsent(value) {
     }
   }
 }
+
+document
+  .getElementById("cookieAccept")
+  ?.addEventListener("click", () => cookieConsent(1));
+document
+  .getElementById("cookieReject")
+  ?.addEventListener("click", () => cookieConsent(0));
+
+document
+  .getElementById("cookieReset")
+  ?.addEventListener("click", () => cookieConsent(null));

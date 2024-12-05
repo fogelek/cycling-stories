@@ -26,19 +26,25 @@ module.exports = function (eleventyConfig) {
     return `${date.getDate()}-${month}-${date.getFullYear()}`;
   });
 
-  eleventyConfig.addPassthroughCopy("src/images");
   eleventyConfig.addPassthroughCopy({
     "node_modules/gradientee/dist/*.js": "js/",
+  });
+  eleventyConfig.addPassthroughCopy({
+    "src/favicon.ico": "dist/favicon.ico",
   });
   eleventyConfig.addPlugin(socialImages);
   eleventyConfig.addPlugin(pluginRss);
 
-  eleventyConfig.addShortcode("image", function (alt, url) {
-    return `<div class="image" title="${alt}"><img src="${url}" alt="${alt}"></div>`;
-  });
+  eleventyConfig.addShortcode(
+    "image",
+    function (alt, url, postUrl = undefined) {
+      const fullUrl = `/media${postUrl || this.page.url}${url}`;
+      return `<div class="image" title="${alt}"><img src="${fullUrl}.webp" alt="${alt}" loading="lazy"></div>`;
+    }
+  );
 
   eleventyConfig.addShortcode("image-single", function (alt, url) {
-    return `<div class="image-single" title="${alt}"><img src="${url}" alt="${alt}"></div>`;
+    return `<div class="image-single" title="${alt}"><img src="/media/${this.page.url}/${url}.webp" alt="${alt}" loading="lazy"></div>`;
   });
 
   eleventyConfig.addNunjucksAsyncFilter(

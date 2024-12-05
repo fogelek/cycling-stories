@@ -1,23 +1,36 @@
 @import "reset";
 @import "background";
 @import "typography";
-@import "header";
 @import "box";
 @import "layout";
 @import "single";
+@import "variables/palette";
+@import "variables/components";
 
 header {
-  justify-content: center;
+  align-content: center;
+  justify-items: center;
   height: 10rem;
 
-  h2 {
-    margin-top: 1rem;
+  a {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    line-height: 2.5rem;
+    margin: 2rem auto;
     font-size: 4rem;
+    width: fit-content;
+    text-align: center;
   }
 
   .title::after {
+    @include underline(100%, $color-primary, $color-secondary);
     height: 0.3rem;
     margin-top: 0.8rem;
+  }
+
+  .subtitle {
+    font-size: 2.2rem;
   }
 
   .socials {
@@ -26,18 +39,10 @@ header {
 }
 
 main {
-  margin-top: 4rem;
+  margin-top: 1px;
+  width: fit-content;
 
-  article {
-    > h1,
-    > *:last-child {
-      margin: 5rem auto;
-      font-size: 4.5rem;
-    }
-
-    h1::after {
-      height: 0.3rem;
-      margin-top: 0.8rem;
-    }
+  img {
+    border-radius: 16px;
   }
 }
