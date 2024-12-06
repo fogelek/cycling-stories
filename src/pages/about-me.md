@@ -2,6 +2,8 @@
 tags:
   - page
 title: About Me
+lang: en
+switch: /pl/o-mnie
 stylesheet: about-me
 ---
 

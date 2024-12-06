@@ -9,7 +9,7 @@ layout: layouts/layout.njk
         <div class="date-created">{{ date | dateFilter }}</div>
     {% endif %}
     {% if thumb %}
-        {% image caption, thumb %}
+        {% image caption, thumb, media %}
     {% endif %}
     {{ content | safe }}
 </article-box>

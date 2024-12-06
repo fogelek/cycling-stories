@@ -1,16 +1,13 @@
 ---
 layout: layouts/layout.njk
+lang: en
+switch: /pl
 ---
 <ul class="posts">
 {%- for post in collections.posts | reverse -%}
-    <li>
-        <a href="{{ post.url }}">
-            <article-box animate>
-              <h2>{{ post.data.title }}</h2>
-                {% image post.data.caption, "thumbnail", post.url %}
-            </article-box>
-        </a>
-    </li>
+    {% if post.data.lang === lang %}
+        {% include "partials/post-tile.njk" %}
+    {% endif %}
 {%- endfor -%}
 </ul>
 

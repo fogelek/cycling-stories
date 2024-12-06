@@ -9,7 +9,7 @@ header {
   padding: 0 max(calc(50% - 512px), 25px);
   background: $color-background-smoke;
 
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 600px) {
     justify-content: center;
 
     .socials {

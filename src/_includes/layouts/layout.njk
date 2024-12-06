@@ -18,10 +18,10 @@
     <meta property='og:description' content='My personal cycling journey'/>
     <meta property='og:url' content='{{ metadata.url }}'/>
     {%  endif %}
-    <meta property='og:image:width' content='1200' />
-    <meta property='og:image:height' content='627' />
+    <meta property='og:image:width' content='800' />
+    <meta property='og:image:height' content='550' />
     <meta property="og:type" content="website" />
-    <title>{{ metadata.title }}</title>
+    <title>{{ "title" | i18n(lang) }}</title>
     <link rel="stylesheet" href="{{ '/css/style.css' | url }}"/>
     {% if stylesheet %}
         <link rel="stylesheet" href="{{ '/css/content/' + stylesheet + '.css' | url}}"/>
@@ -106,15 +106,14 @@
     {% else %}
         {% include "partials/main.njk" %}
     {% endif %}
-{#    <div class="controls">#}
-{#
-{#    </div>#}
     <footer>
-        <a href="/" class="root-link">
-            <h3>{{ metadata.title }}</h3>
+        <a href="{{ "urlHome" | i18n(lang) }}" class="root-link">
+            <h3>{{ "title" | i18n(lang) }}</h3>
         </a>
         {% include "partials/topmenu.njk" %}
-        <a href="#" id="cookieReset" class="reset-cookie-consent">Reset cookie settings</a>
+        <a href="#" id="cookieReset" class="reset-cookie-consent">
+            {{ "cookieReset" | i18n(lang) }}
+        </a>
     </footer>
     <div id="go-to-top" class="up-arrow">
         <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-chevron-up" viewBox="0 0 16 16">
@@ -124,15 +123,12 @@
     <div id="cookie-banner" class="cookie-banner">
         <div class="content">
             <div class="text">
-                <h3>This site uses cookies</h3>
-                <span>
-                    This page uses cookies to remember some of your options. No personal data is gathered.<br/>
-                    You can change your preferences using link at the bottom of the page.
-                </span>
+                <h3>{{ "cookieHeader" | i18n(lang) }}</h3>
+                <span>{{ "cookieContent" | i18n(lang) }}</span>
             </div>
             <div class="actions">
-                <button id="cookieReject">Reject</button>
-                <button id="cookieAccept" class="primary">Accept</button>
+                <button id="cookieReject">{{ "reject" | i18n(lang) }}</button>
+                <button id="cookieAccept" class="primary">{{ "accept" | i18n(lang) }}</button>
             </div>
         </div>
     </div>

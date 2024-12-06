@@ -1,5 +1,9 @@
 @import "variables/palette";
 
+:root {
+  --font-header: "Palatino Linotype", "Book Antiqua", Palatino, serif, system-ui;
+}
+
 body,
 button {
   color: $color-foreground;
@@ -27,7 +31,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif, system-ui;
+  font-family: var(--font-header);
 }
 
 h1 {

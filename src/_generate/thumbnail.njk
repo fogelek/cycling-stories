@@ -28,8 +28,8 @@ eleventyExcludeFromCollections: true
     </div>
     <header>
         <a href="/">
-            <h1 class="title">{{ metadata.title }}</h1>
-            <h2 class="subtitle" data-subtitle>{{ metadata.title }}</h2>
+            <h1 class="title">{{ "title" | i18n(lang) }}</h1>
+            <h2 class="subtitle" data-subtitle>{{ "subtitle" | i18n(lang) }}</h2>
         </a>
     </header>
     <main>

@@ -22,9 +22,17 @@
     height: 2.25em;
   }
 
+  .language-switch {
+    text-transform: uppercase;
+    font-family: var(--font-header);
+    font-size: 1.25rem;
+  }
+
+  .language-switch,
   .strava,
   .instagram,
-  .avatar {
+  .avatar,
+  .switch-container {
     transition: 0.3s transform ease;
 
     &:hover {

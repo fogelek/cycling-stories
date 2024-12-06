@@ -11,8 +11,10 @@ footer {
   padding: 0 max(var(--margin), calc(50% - 512px)) 0.5rem;
   background: $color-background-smoke;
 
-  .switch-container {
-    display: none;
+  @media screen and (min-width: 601px) {
+    .switch-container {
+      display: none;
+    }
   }
 
   @media screen and (max-width: 600px) {

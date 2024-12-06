@@ -1,12 +1,4 @@
-<header>
-    <a href="/">
-        <h1>
-            <span class="title">{{ metadata.title }}</span>
-            <span class="subtitle">{{ metadata.subtitle }}</span>
-        </h1>
-    </a>
-    {% include "partials/topmenu.njk" %}
-</header>
+{% include "partials/header.njk" %}
 <nav class="main">
     {{ content | safe }}
 </nav>

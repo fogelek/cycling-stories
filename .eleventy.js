@@ -3,6 +3,8 @@ const markdownAttributes = require("markdown-it-attrs");
 const markdownAnchor = require("markdown-it-anchor");
 const socialImages = require("@11tyrocks/eleventy-plugin-social-images");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const shortcodeImages = require("./eleventy/images");
+const filterI18n = require("./eleventy/i18n");
 const { minify } = require("terser");
 
 module.exports = function (eleventyConfig) {
@@ -35,17 +37,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(socialImages);
   eleventyConfig.addPlugin(pluginRss);
 
-  eleventyConfig.addShortcode(
-    "image",
-    function (alt, url, postUrl = undefined) {
-      const fullUrl = `/media${postUrl || this.page.url}${url}`;
-      return `<div class="image" title="${alt}"><img src="${fullUrl}.webp" alt="${alt}" loading="lazy"></div>`;
-    }
-  );
-
-  eleventyConfig.addShortcode("image-single", function (alt, url) {
-    return `<div class="image-single" title="${alt}"><img src="/media/${this.page.url}/${url}.webp" alt="${alt}" loading="lazy"></div>`;
-  });
+  shortcodeImages(eleventyConfig);
+  filterI18n(eleventyConfig);
 
   eleventyConfig.addNunjucksAsyncFilter(
     "jsmin",
