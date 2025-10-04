@@ -72,8 +72,8 @@ main {
     }
 
     .image,
-    .image-single {
-      margin-bottom: 32px;
+    .image-single,
+    .profile-image {
       vertical-align: top;
 
       img {
@@ -93,6 +93,11 @@ main {
           width: calc(100% / 2 - 16px);
         }
       }
+    }
+
+    .image,
+    .image-single {
+      margin-bottom: 32px;
 
       &::after {
         content: attr(title);
@@ -100,6 +105,53 @@ main {
         text-align: right;
         line-height: 1.3rem;
         font-style: italic;
+      }
+    }
+
+    .interactive-map {
+      min-width: 100%;
+      height: 700px;
+      border: none;
+      margin-left: 0;
+    }
+
+    .profile-image {
+      position: relative;
+
+      &::before {
+        content: attr(title);
+        position: absolute;
+        color: black;
+        top: 15px;
+        left: 20px;
+        font-size: 1.9rem;
+        font-weight: 500;
+
+        @media (max-width: 900px) {
+          font-size: 1.5rem;
+        }
+        @media (max-width: 600px) {
+          font-size: 1rem;
+        }
+      }
+    }
+
+    .profiles {
+      list-style-type: none;
+
+      li {
+        margin-left: 0;
+      }
+      input {
+        display: none;
+        &:checked + label {
+          font-weight: bold;
+          font-style: normal;
+        }
+      }
+      label {
+        font-style: italic;
+        cursor: pointer;
       }
     }
 
@@ -148,5 +200,9 @@ main {
     border-radius: 0 0.7rem 0.7rem 0;
     border-left: 2px solid $color-border-light;
     padding: 0.5rem 1rem;
+
+    p:has(+ p) {
+      margin-bottom: 1rem;
+    }
   }
 }

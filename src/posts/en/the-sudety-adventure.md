@@ -70,7 +70,7 @@ My humor did not get better after eating my beloved Czech fried cheese. The prob
 {% image "Over Teplice", "8AD8F88F-AAB3-4F4D-993B-E677136B0E54", "the-sudety-adventure" %}
 
 >Day after day, the routine kicks in. Every evening you have to unpack, eat your dinner and grab a shower. Wash sweaty kit, chat a while with your wife, read a couple of pages and bang! You have no more stamina left to do anything but to fall asleep instantly. Same thing goes in the morning – you swiftly pack your things, eat your breakfast, quickly strap the luggage onto the bike and away you go, rushing down the road, ready to meet another day’s adventure.
-
+>
 >Routine kicks in along with merciless lack of time, crawls into you, disguised by weariness of a whole day’s ride. Exhaustion grows to be so profound that even the birthday party happening just below you – disco hits blaring and DJ yelling into the microphone are unable to pull you out of the deep, restful slumber.
 
 {% image "Chvalec uphill, Snezka on the horizon", "069A95BD-88B4-4BFA-A497-51E66705F8C5", "the-sudety-adventure" %}

@@ -1,6 +1,15 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2C2VLH2M0S"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-2C2VLH2M0S');
+    </script>
     <meta charset="UTF-8">
     <meta name="description" content="My personal cycling journey">
     <meta name="keywords" content="cycling, bikepacking, bike, road">
@@ -10,13 +19,12 @@
     {% if title %}
     <meta property='og:title' content='Cycling Stories - {{ title }}'/>
     <meta property='og:image' content='{{ metadata.url }}/images/thumbnails/{{ title | slug }}.png'/>
-    <meta property='og:description' content='{{ lead }}'/>
-    <meta property='og:url' content='{{ metadata.url }}/{{ title | slug }}'/>
+    <meta property='og:url' content='{{ metadata.url }}/{{ lang }}/{{ title | slug }}'/>
     {%  else %}
     <meta property='og:title' content='Cycling Stories'/>
     <meta property='og:image' content='{{ metadata.url }}/images/thumbnails/index.png'/>
-    <meta property='og:description' content='My personal cycling journey'/>
-    <meta property='og:url' content='{{ metadata.url }}'/>
+    <meta property='og:description' content='{{ "subtitle" | i18n(lang) }}'/>
+    <meta property='og:url' content='{{ metadata.url }}{% if lang === "pl" %}/{{ lang }}{% endif %}'/>
     {%  endif %}
     <meta property='og:image:width' content='800' />
     <meta property='og:image:height' content='550' />
@@ -132,6 +140,6 @@
             </div>
         </div>
     </div>
-    <script type="text/javascript" src="/js/main.min.js"></script>
+    <script type="text/javascript" src="/js/main.min.js?20250120"></script>
 </body>
 </html>

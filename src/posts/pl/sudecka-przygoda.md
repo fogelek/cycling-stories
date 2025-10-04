@@ -52,7 +52,7 @@ Przejazd przez Broumovsko i Adršpach mnie znudził. Niby ładnie, ale drogi, kt
 {% image "Ponad Teplicami", "8AD8F88F-AAB3-4F4D-993B-E677136B0E54", "the-sudety-adventure" %}
 
 >Jadąc dzień za dniem wpadasz w rytm, w rutynę. Codziennie wieczorem musisz się rozładować, zjeść, umyć się, wyprać zapocony strój, pogadać z przyjaciółmi, chwilę poczytać i już nie masz na nic siły – sen przychodzi sam. Rano – pakujesz bety, wciągasz śniadanko, zapinasz torby i ruszasz dalej.
-
+>
 >Rutyna wchodzi w krew wraz z ograniczonym czasem, wpełza zmęczeniem całego dnia jazdy. Senność i wyczerpanie potrafią być tak potężne, że z objęć Morfeusza jest Cię trudno wyrwać nawet DJ’owi imprezy urodzinowej odbywającej się piętro pod Tobą.
 
 {% image "Chvalec, w oddali Śnieżka", "069A95BD-88B4-4BFA-A497-51E66705F8C5", "the-sudety-adventure" %}

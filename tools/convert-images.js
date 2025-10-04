@@ -12,18 +12,21 @@ const addDir = (dir) =>
 
 addDir("images");
 
-const media = fs.readdirSync("src/media");
+const media = fs.readdirSync("src/media").filter(file => file !== '.DS_Store');
 media.forEach((dir) => addDir(`media/${dir}`));
 
 const convert = (name) => {
   const src = `src/${name}`;
   const filePath = path.parse(name);
   const dst = `dist/${filePath.dir}/${filePath.name}.webp`;
+  if (fs.existsSync(dst)) {
+    return;
+  }
   if (!fs.existsSync(`dist/${filePath.dir}`)) {
     fs.mkdirSync(`dist/${filePath.dir}`, { recursive: true });
   }
   const i = sharp(fs.readFileSync(src));
-  i.toFormat("webp", { quality: 80 });
+  i.resize({height: 1200, withoutEnlargement: true}).toFormat("webp", { quality: 80 });
 
   return i
     .toFile(dst)
