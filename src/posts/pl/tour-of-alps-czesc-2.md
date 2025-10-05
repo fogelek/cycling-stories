@@ -16,11 +16,12 @@ date: 2024-12-14
 
 Podczas niesamowitego I relaksującego dnia wolnego wybrałam się na długi spacer z kempingu do Entrèves, a następnie na niezwykle malowniczą przejażdżkę kolejką linową do punktu widokowego Punta Helbronner. Wiedzie ona na wysokość ponad 3400 metrów, jest reklamowana jako „Podróż na szczyt Włoch” i oferuje zapierające dech w piersiach, niczym nieprzerwane widoki na wierzchołek Mont Blanc, lodowiec Glacier du Géant, grań Grandes Jorasses i Dolinę Aosty. Ale nadszedł czas, by pożegnać się z Włochami. Z pomocą autobusu i jego uprzejmego kierowcy – który zdołał zmieścić mój rower, mimo że autobus nie miał specjalnego bagażnika – przedostałam się na drugą stronę góry.
 
-{% image "Mont Blanc z Punta Helbronner", "France-190", "tour-of-alps-part-2" %}
-
 Trasa na ten dzień była dość łatwa. Traktowałam ją głównie jako przejazd z Chamonix do ciekawszych podjazdów, a nie cel sam w sobie. Po szybkim espresso w sercu alpejskiej stolicy wspinaczki spokojnie toczyłam się przez dolinę w kierunku Vaudagne. Co chwilę spoglądałam na monumentalny Mont Blanc górujący w oddali. Choć wciąż imponujący, nie wyglądał tak spektakularnie jak z Courmayeur. Po francuskiej stronie szczyt leży dalej od doliny, a jej zbocza są bardziej łagodne, ozdobione lodowcem Glacier des Bossons, podczas gdy włoska południowa strona to pionowy system ścian, filarów i żlebów. Pomimo spokojnego tempa, płaska droga na dnie doliny szybko wyprowadziła mnie z miasta, w las, gdzie zaczęła się łagodna wspinaczka. Jechałam powoli, aż w końcu znalazłam się na szczycie, skąd zjechałam krętą, wijącą się drogą przez małą wioskę. Nawet podczas zjazdu udawało mi się uchwycić widoki Mont Blanc wyglądającego spomiędzy drzew i domów.
 
+{% images 2 %}
+{% image "Mont Blanc z Punta Helbronner", "France-190", "tour-of-alps-part-2" %}
 {% image "Mont Blanc", "France-213", "tour-of-alps-part-2" %}
+{% images-end %}
 
 Następnie trasa poprowadziła mnie przez lasy w Servoz i w dół do miasta Le Fayet. Stamtąd zaczęłam kolejny podjazd – początkowo małą drogą wzdłuż kolejki linowej, która ostatecznie połączyła się z główną drogą prowadzącą do Megève. Dobrze utrzymany asfalt, stosunkowo łagodne nachylenia, oszałamiające widoki na masyw Aravis i komfortowe 30°C sprawiły, że jechało mi się bardzo przyjemnie. Gdy minęłam Megève trasa stała się jeszcze bardziej ekscytująca, gdyż droga zaczęła opadać w kierunku Flumet, prowadząc przez wąwóz. Uwielbiam takie miejsca – strome ściany skalne po jednej stronie drogi i urwisko po drugiej, odsłaniające niesamowite krajobrazy. Czekał mnie jeszcze jeden ostatni podjazd: spokojna i malownicza Route d’Héry.
 
@@ -30,25 +31,26 @@ Niewiele więcej działo się później tego dnia. Reszta trasy była płaska i 
 
 Wielki dzień w siodle! Zaczęłam od jednego z większych podjazdów, które miałam zaplanowane: 26 kilometrów Col de la Madeleine. Wspinaczka zaczyna się serią serpentyn w lesie, szybko zdobywając wysokość, a następnie kontynuuje po prawej stronie doliny aż na 2000 metrową przełęcz. Składa się jakby z trzech mniejszych podjazdów, jeden za drugim, z krótkimi, niemal płaskimi odcinkami na odpoczynek między kolejnymi wysiłkami. Pierwszy etap był… spokojny. Szybko znalazłam swój rytm, pedałując równomiernie. Wkrótce las się przerzedził, a ja mogłam podziwiać pierwsze widoki na dwie doliny – tę, którą właśnie opuściłam, i tę, do której zmierzałam. Jak we wszystkie poprzednie dni, pogoda była wspaniała, a ciepłe słońce dodawało mi energii. Ledwo zauważyłam, kiedy minęłam skręt do wioski Bonneval, wjeżdżając na pierwszy odpoczynkowy odcinek wspinaczki.
 
-{% image "Dolne partie podjazdu pod Col de la Madeleine", "France-218", "tour-of-alps-part-2" %}
-
 Po czterech krótkich, ale bardzo relaksujących płaskich kilometrach nadszedł czas na dalszą wspinaczkę. Kilka serpentyn doprowadziło mnie do malutkiej, lecz urokliwej wioski La Thuile. Większość drzew w dolnej części doliny ustąpiła miejsca górskim łąkom, rzadkim krzewom i rozrzuconym zagajnikom. Droga znów zaczęła się stromo wznosić, a ja z każdym metrem zaczęłam odczuwać trudności. Wyprzedziło mnie kilku kolarzy. Nic dziwnego – bagaż mnie spowalniał, a do tego większość z nich wyglądała na mocniejszych niż ja. Mimo to obniżyło to nieco moje morale. Zaczęłam liczyć każde 10 metrów zdobytej wysokości, każde 100 metrów pokonanej drogi. Ale to nie wystarczyło. Czując się całkowicie zawiedziona sobą, musiałam się zatrzymać.
 
+{% images 2 %}
+{% image "Dolne partie podjazdu pod Col de la Madeleine", "France-218", "tour-of-alps-part-2" %}
 {% image "Oznaczenie podjazdu", "France-219", "tour-of-alps-part-2" %}
+{% images-end %}
 
 > Wielkie podjazdy to kwestia tempa i strategii. Zaczniesz zbyt mocno i szybko się spalisz. Zbyt wolno – tracisz cenny czas. Pomijanie regularnego uzupełniania energii to prosty przepis na spotkanie ze ścianą. Każda walka zaczyna się znajomo: nogi zaczynają piec. By wytrwać, zaczynasz grać ze swoim umysłem – stawiasz sobie małe, widoczne cele i pchasz do przodu. Ale kiedy nachylenie rośnie, zdajesz sobie sprawę, że dotarłaś do granic swoich możliwości. Widzisz jeszcze 8 kilometrów wspinaczki i pół kilometra różnicy wysokości do pokonania. I wtedy… wybuchasz.
 
 Według śladu GPX przerwa trwała około 44 sekundy. Wtedy czułam, jakby to była wieczność. Wieczność wypełniona wstydem. „Patrzcie na nią, nie dała rady podjechać nawet jednego podjazdu” – wyobrażałam sobie słowa ludzi w mijających samochodach. Później, już domu, przeanalizuję ślad i zauważę, że zatrzymałam się na jednym z najstromszych odcinków całego 25-kilometrowego podjazdu. Ale w tamtej chwili czułam, jakbym zawiodła samą siebie. Po 44 długich sekundach ruszyłam znowu, powoli kręcąc pedałami w jednostajnym tempie, zdeterminowana, by nie zaliczyć kolejnego kryzysu.
 
-{% image "Widoki na dolinę", "France-223", "tour-of-alps-part-2" %}
-
 Dwadzieścia minut i jeden łagodny, odprężający odcinek później nachylenie ponownie wzrosło. Wtedy poczułam, że dysocjuję. Byłam w pełni świadoma otaczającego mnie krajobrazu, chłonąc jego piękno, ale moje nogi wydawały się odległe, jakby to jakaś zewnętrzna siła nimi poruszała. Surrealistyczne uczucie. Potem, gdy droga zakręciła, górna dolina otworzyła się, zobaczyłam ostatni odcinek wspinaczki – wyraźną linię przecinającą zbocze. Jak większość górskich dróg wyglądała na trudną i onieśmielającą, ale nie tym razem. „Jeśli widzę szczyt, dam radę!” – pomyślałam. Powoli, moje ciało i umysł łączyły się na nowo. Nogi nów zaczęły palić, ale były moje, a ja wiedziałam, że przełęcz jest już blisko. W końcu, po prawie dwóch i pół godzinach wspinaczki – i ponad godzinie walki z wątpliwościami – droga się wypłaszczyła, a ja wtoczyłam się na przełęcz. Zrobiłam zdjęcie tabliczki na wysokości 2000 metrów, oznaczającej najwyższy punkt dnia.
-
-{% image "Tuż przed ostatnim wystromieniem", "France-224", "tour-of-alps-part-2" %}
 
 > Mogę sobie wmawiać, że jeżdżę tylko dla przyjemności, by cieszyć się widokami i zanurzyć w naturze. I to prawda. Ale gdzieś głęboko zawsze gonię za liczbami. Czy jechałam najszybciej, jak mogłam? Czy mogłam wygenerować więcej watów? Czy moje nogi byłyby świeższe, gdybym miała większą kasetę i mogła kręcić szybciej? Dlaczego zabrałam tyle bagażu? Czy nie mogłam spakować się lżej? Gdy ktoś mnie wyprzedza, zawsze się zastanawiam: czy byłabym szybsza od nich bez tego dodatkowego obciążenia? Bez 11 000 metrów przewyższenia, które miałam już w nogach w tym tygodniu? Nigdy się nie dowiem.
 
+{% images 3 %}
+{% image "Widoki na dolinę", "France-223", "tour-of-alps-part-2" %}
+{% image "Tuż przed ostatnim wystromieniem", "France-224", "tour-of-alps-part-2" %}
 {% image "Na przełęczy", "France-225", "tour-of-alps-part-2" %}
+{% images-end %}
 
 Chłodny, wilgotny wiatr i zachmurzone niebo nad doliną przede mną zmotywowały mnie do założenia kurtki i rozpoczęcia zjazdu po krótkim odpoczynku. Nie był to najszybszy zjazd – przedni bagaż ograniczał prędkość – jechałam pewnie i komfortowo. Szybko wchodziłam w zakręty, precyzyjnie dobierałam miejsca hamowania, obserwowałam drogę i oceniałam prędkość na podstawie mapy. Cieszyłam się widokami, byłam spokojna. Nawet karetka stojąca w miejscu prawdopodobnego wypadku nie wytrąciła mnie z równowagi; przypomniała mi jedynie, dlaczego pewność siebie i umiejętności są kluczowe dla szybkości i bezpieczeństwa. Ostrożnie, świadoma swoich ograniczeń, zjechałam aż do La Chambre. Zatrzymałam się w piekarni, a gdy tylko dotarłam, zaczęło padać.
 
@@ -56,8 +58,10 @@ Deszcz przeczekiwałam jedząc wspaniałe, słodkie wypieki i pijąc absurdalnie
 
 Wciąż pamiętając poranną walkę, byłam sceptycznie nastawiona do tego, jak pójdzie mi ten podjazd. Ale przy sporym zapasie światła dziennego wiedziałam, że mogę jechać spokojnie. Korbą za korbą, toczyłam się do przodu. Jeden zakręt za drugim, szybko zaczęłam się czuć dobrze. Kadencję miałam komfortową, a moc wyższą niż rano. „Dam radę!” – pomyślałam. Droga wznosiła się równomiernie, oferując oszałamiające widoki na dolinę i pięknie wykrojone w zboczu serpentyny.
 
+{% images 2 %}
 {% image "Lacets de Montvernier", "France-230", "tour-of-alps-part-2" %}
 {% image "Balkon na drodze na Col du Chaussy", "France-236", "tour-of-alps-part-2" %}
+{% images-end %}
 
 Nim się obejrzałam, minęłam ostatni zakręt i wjechałam do wioski Montvernier. Choć słynny podjazd kończył się tutaj, moja trasa prowadziła dalej w górę, w kierunku mniej znanej Col du Chaussy. Cicha, mało uczęszczana droga prowadziła przez serię małych wiosek. Miejscowi dopingowali mnie, gdy przejeżdżałam, a kierowcy machali z zachętą. Była to naprawdę spokojna okolica. Nagle, za którymś z zakrętów, zauważyłam wielką, ukośną szczelinę wysoko na skalnej ścianie przede mną. Na mojej twarzy pojawił się uśmiech. Rozpoznałam ją natychmiast: droga balkonowa. Niewiele rzeczy ekscytuje mnie bardziej niż jazda wzdłuż ścian górskich, z przepaściami po drugiej stronie. To była cudowna niespodzianka!
 
@@ -85,13 +89,14 @@ Na początku droga wije się przez wioski i łąki, by wkrótce przejść w las.
 
 Pomimo tego, że nie byłam całkiem obecna w ciele, pamiętałam, żeby uzupełniać energię. Zaczęłam jeść baton energetyczny, który kupiłam dwa dni wcześniej w Albertville. Nie zauważyłam jednak, że kupuję batonik orzechowy—a nie moje ulubione, miękkie galaretki. Ciężko mi go było pogryźć i żuć. Jednak przez chwilę jedynie pomyślałam, że to pewnie zmęczenie całym wyjazdem, bo podiazd wciąż był w miarę łagodny.
 
-{% image "Robi się stromo!", "France-245", "tour-of-alps-part-2" %}
-
 W tym czasie teren zaczął się zmieniać. Opuszczając las i wjeżdżając w strefę subalpejską, z przeżytymi emocjami, powoli wróciłam do swojego ciała, zaczynając podziwiać widoki. Droga stała się bardziej stroma, a moje ciało weszło w tryb ciężkiej, ale stabilnej pracy. Skupiłam się na oddechu, tempie i delektowaniu się krajobrazem. Wiedząc, że za zaledwie dziesięć dni tę właśnie drogę będą przemierzać najlepsze zawodniczki w finałowej walce o Maillot Jaune, rozmyślałam, co się wydarzy, nie zdając sobie sprawy, jak znaczący będzie to moment w historii kobiecego kolarstwa.
 
 > Około trzy kilometry przed przełęczą droga opuszcza dno doliny i zaczyna wspinać się w kierunku grzbietu. Tu podjazd staje się brutalny.  Nachylenie nie spada tu poniżej 10%. Z trudem przesuwasz się naprzód w żółwim tempie, odliczając metry na wysokościomierzu. Przestajesz zwracać uwagę na moc, kadencję czy tętno. W takich momentach jedziesz na wyczucie. Widząc niższe cyferki niż zwykle, popadłbyś w rozpacz. Te ostatnie trzy kilometry bolą. BARDZO. Znów wyznaczać sobie mikrocele. Agrafki przecinają strome zbocze, a droga szybko zyskuje na wysokości i z każdym zakrętem rozszerza widok na otaczające góry. Podziwiasz krajobraz, próbując odwrócić uwagę od nieustępliwego nachylenia, które pali Twoje nogi. Przenosisz wzrok między krajobrazem, znacznikami drogowymi i swoim przednim kołem, jakby miało to sprawić, że rower pojedzie szybciej. Wiesz jednak, że tak nie jest—i tylko Twój wysiłek może dowieźć Cię na szczyt przełęczy. Ale kiedy w końcu pokonujesz ostatnie metry, czujesz się, jakbyś zdobył szczyt świata.
 
+{% images 2 %}
+{% image "Robi się stromo!", "France-245", "tour-of-alps-part-2" %}
 {% image "Serpentyny przed Col du Glandon", "France-248", "tour-of-alps-part-2" %}
+{% images-end %}
 
 W końcu dotarłam na szczyt Col du Glandon. Zrobiłam krótki postój na zdjęcie, po czym ruszyłam dalej, mając przed sobą jeszcze 150 m wspinaczki do Col de la Croix de Fer. Łagodniejsze nachylenie pozwoliło mi nieco się zregenerować, pedałując z ulubioną kadencją – 90 rpm. Mijając innych rowerzystów, szybko dotarłam do grzbietu i padłam na murek.
 
@@ -101,15 +106,11 @@ Rozpakowałam croissanta i zaczęłam jeść, ale każdy kęs zdawał się rosn�
 
 Nie dotarłam jednak na dno doliny. Zamiast tego skręciłam w stronę ukrytej perełki, którą znalazłam w ostatniej chwili w lokalnych atrakcjach Komoota. Mała wioska Mollard, położona blisko przełęczy o tej samej nazwie, znajduje się na czymś w rodzaju płaskowyżu między doliną Arvan a grzbietem Aiguilles d’Arves. Nie jest popularna i nie należy do trudnych od tej strony, z której jechałam. Po wyczerpującym finiszu pod Glandon była to miła odmiana. Ze średnim nachyleniem 6,5% było to przyjemne przypomnienie, że wciąż mogę jechać lekko i czerpać radość z jazdy. Ogromnie cieszyłam się tym podjazdem, rozkoszując się ciepłem wczesno popołudniowego słońca.
 
-{% image "Podjazd pod Col du Mollard", "France-260", "tour-of-alps-part-2" %}
-
 Potem nadszedł zjazd, i już na samym początku wiedziałam, że będzie ciekawy. Okazał się dość techniczny, a ja, znów czując się pewnie, postanowiłam przetestować granice.
 
 Wpierw – stabilności mojego roweru. Górna część zjazdu była zauważalnie szybsza, z długimi odcinkami lekko krętej drogi łączącymi kilka ostrzejszych zakrętów. Przednia sakwa naturalnie ograniczała maksymalną prędkość, więc bawiłam się aerodynamiką, dotykając hamulców tylko wtedy, gdy było to absolutnie konieczne i płynnie przechylając się z jednego zakrętu w drugi.
 
 Dolna połowa to seria nieregularnych, trudnych agrafek. Przy ostrych zakrętach i niższych prędkościach przeszłam od eksperymentowania z płynnością do testowania hamulców. „Obręcze karbonowe nie hamują! Zaciskasz klamki i czekasz, aż rower zacznie zwalniać!” No cóż, postanowiłam sprawdzić, czy ten stereotyp jest prawdziwy. Ostatnie kilka dni pokazało mi, że te twierdzenia nie są do końca zgodne z rzeczywistością.
-
-{% image "Wspinając się na Col du Mollard", "France-261", "tour-of-alps-part-2" %}
 
 > Trail braking na rowerze szosowym to delikatny taniec z hamulcami, technika, która przeczy standardowemu „nigdy nie hamuj w zakręcie”. To kwestia kontroli i precyzji. Zaczynasz od mocnego hamowania przy dojeździe do zakrętu, redukując prędkość. Następnie pochylasz się w zakręt, stopniowo zwalniając nacisk na hamulce, w idealnej harmonii z kątem nachylenia, balansując siły działające na rower.
 >
@@ -121,7 +122,11 @@ Z każdym zakrętem zaczęłam hamować później i mocniej. Moje zakręty stawa
 
 To drugie przestrzelenie zakrętu ostudziło nieco moje zapały. Do końca zjazdu trzymałam się wciąż agresywnego, ale już bezpieczniejszego tempa.
 
+{% images 3 %}
+{% image "Podjazd pod Col du Mollard", "France-260", "tour-of-alps-part-2" %}
+{% image "Wspinając się na Col du Mollard", "France-261", "tour-of-alps-part-2" %}
 {% image "Aiguilles d’Arves", "France-263", "tour-of-alps-part-2" %}
+{% images-end %}
 
 Kiedy w końcu wjechałam do miasta, zatrzymałam się przy pierwszej pizzerii, jaką zobaczyłam. Usiadłam, a mój żołądek głośno burczał, gdy patrzyłam na kelnerów niosących parujące talerze jedzenia. Poczułam ulgę—dopóki kelnerka nie przewróciła oczami i nie poinformowała mnie, że kuchnia jest zamknięta i nie otworzy się przez kolejne pięć godzin.
 
@@ -157,7 +162,10 @@ Valloire, mała turystyczna wioska, wydaje się w letnich miesiącach żyć z To
 
 Podjazd zaczął się łagodnym nachyleniem, łatwiejszym niż cokolwiek, z czym zmagałam się dotychczas podczas tej wycieczki. Nagle poczułam gumowatość w udach, uczucie, które zwykle pojawia się dopiero w połowie października, gdy organizm daje znać, że czas odpocząć po długim sezonie jazdy. Moc zaczęła spadać—na początku powoli—przechodząc z niskiego tempa do wysokiej strefy 2. Zjadłam żel energetyczny, mając nadzieję, że w ciągu 5–10 minut przywróci mi siły, i popiłam go wodą. Wtedy uświadomiłam sobie, jak bardzo jestem spragniona. Temperatura nie była szczególnie wysoka—mój GPS pokazywał nie więcej niż 30°C—ale niezależnie od tego, ile piłam, nie mogłam ugasić pragnienia. Nie czułam się tak odwodniona od lat, mimo że piłam regularnie.
 
+{% images 2 %}
+{% image "Podazd pod Col du Telegraphe", "France-269", "tour-of-alps-part-2" %}
 {% image "Moja Dolina Rozpaczy", "France-273", "tour-of-alps-part-2" %}
+{% images-end %}
 
 W tym momencie ledwie jechałam, wyprzedzana przez każdego innego kolarza wspinającego się na przełęcz. Ale moje problemy na tym się nie skończyły. Z każdym łykiem czułam, jak mój żołądek puchnie, jakby miał zaraz wykipieć. Bałam się, że zwymiotuję wszystko, co wypiłam w ciągu ostatniej godziny, rozbryzgując cenne płyny dookoła tej oszałamiająco pięknej doliny. Moc spadła jeszcze bardziej, tak, że ledwo toczyłam się do przodu, a na rowerze trzymała mnie już tylko siła woli.
 
@@ -167,8 +175,10 @@ Ledwo docierając do przydrożnej kawiarni, niemal zsunęłam się z roweru. W d
 
 Po 17 minutach odpoczynku (które wydawały się wiecznością), napełniłam butelki wodą i niechętnie wróciłam na siodełko. Powoli zaczęłam pedałować, starając się oszczędzać energię i jechać tak lekko, jak to możliwe. Siła powoli wracała z każdym obrotem korby. Podniosłam lekko kadencję, przywracając moc do strefy niskiego tempa. Wciąż wolno, ale już nie umierając przy każdym obrocie, zaczęłam na nowo czerpać radość z jazdy. Zyskując wysokość, zapierająca dech w piersiach sceneria dodawała mi otuchy.
 
-{% image-single "Podjazd pod Galibier", "France-276", "tour-of-alps-part-2" %}
-{% image-single "Podjazd pod Galibier", "PJD_1109_090824", "tour-of-alps-part-2" %}
+{% images 2 %}
+{% image "Podjazd pod Galibier", "France-276", "tour-of-alps-part-2" %}
+{% image "Podjazd pod Galibier", "PJD_1109_090824", "tour-of-alps-part-2" %}
+{% images-end %}
 
 Śmiałam się do siebie rozpierającym szczęściem, o nawet bardziej strome odcinki nie były w stanie mnie wybić z rytmu. Przeżyłam właśnie jedną z najgorszych bomb w swoim życiu, by móc cieszyć się jednym z najbardziej spektakularnych miejsc, w jakich kiedykolwiek jeździłam, wspinając się na tę przełęcz przesyconą kolarską historią.
 
@@ -184,7 +194,7 @@ Dotarłam do miasteczka w miarę wcześnie i miałam szczęście złapać się o
 
 Tam, w otoczeniu gór, miałam czas na refleksję nad dniem pełnym wyzwań, triumfów i lekcji. Pomimo trudności i chwil zwątpienia, czułam się wdzięczna za każdą chwilę tej przygody.
 
-{% image-single "Prawie na szczycie", "France-282", "tour-of-alps-part-2" %}
+{% image "Prawie na szczycie", "France-282", "tour-of-alps-part-2" %}
 
 Ciąg dalszy nastąpi...
 

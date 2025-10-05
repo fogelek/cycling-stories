@@ -1,8 +1,8 @@
 <li>
     <a href="{{ post.url }}">
-        <article-box animate>
-            <h2>{{ post.data.title }}</h2>
+        <article-box>
             {% image post.data.caption, "thumbnail", post.data.media %}
+            <h2>{{ post.data.title }}</h2>
         </article-box>
     </a>
 </li>

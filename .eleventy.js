@@ -4,6 +4,7 @@ const markdownAnchor = require("markdown-it-anchor");
 const socialImages = require("@11tyrocks/eleventy-plugin-social-images");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const shortcodeImages = require("./eleventy/images");
+const shortcodeEmbeds = require("./eleventy/embeds");
 const filterI18n = require("./eleventy/i18n");
 const { minify } = require("terser");
 
@@ -38,6 +39,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
 
   shortcodeImages(eleventyConfig);
+  shortcodeEmbeds(eleventyConfig);
   filterI18n(eleventyConfig);
 
   eleventyConfig.addNunjucksAsyncFilter(

@@ -53,12 +53,14 @@ While battling the elements, I hadn’t even noticed when the rain stopped. The 
 
 Col de la Bonette is a narrow pass at 2,715m — just 59 meters lower than Col de l’Iseran. It lies below the peak of the same name. I arrived at its tiny crossroads, carved into the rocks, and began the final push to the top of the ascent. Bonette is the highest paved road in France — a small loop built around the summit, peaking at precisely 2,802 meters. The final kilometer of the climb is also the steepest one. The whole loop consists of a narrow, one-way road. The pyramid-like peak of the mountain — a barren, black, lunar heap of stones — stood in stark contrast to the greenery of the surrounding valleys.
 
-{% image "Cime de la Bonette", "France-375", "tour-of-alps-part-4" %}
-{% image "Cime de la Bonette", "France-377", "tour-of-alps-part-4" %}
-
 I fought hard to reach the top, getting out of the saddle from time to time. Thanks to the wind, I was already completely dry, and the rain was now just a memory, lingering only in the wet tarmac beneath my wheels. I almost sprinted the last few meters, stopped, and let out a huge sigh of relief. What’s worth noting — after nearly two weeks at altitude, riding through the highest-paved roads in Europe — I didn’t feel the effects of low oxygen here, unlike on l’Iseran. The magic of acclimatization. 
 
 There was one other cyclist at the top, and we greeted and congratulated each other. I had originally planned to hike up the mountain, but the wind was too strong, and with temperatures still around 4–5 degrees, I abandoned the idea. I quickly snapped a few pictures and decided it was high time to escape the unwelcoming Alpine zone.
+
+{% images 2 %}
+{% image "Cime de la Bonette", "France-375", "tour-of-alps-part-4" %}
+{% image "Cime de la Bonette", "France-377", "tour-of-alps-part-4" %}
+{% images-end %}
 
 {% image "View from Cime de la Bonette", "France-376", "tour-of-alps-part-4" %}
 
@@ -72,36 +74,43 @@ Passing the destroyed remnants of the old military camp, I noticed that the wind
 
 I arrived in Saint-Étienne at 1 p.m. — still early. It was warm and sunny, and suddenly, everything felt nice again. No more rain in the forecast. Climbing Bonette, I had felt good and fresh, and despite the absolute worst weather, I hadn’t struggled physically. So, I decided to send it. I began the descent to Isola, and soon after, I was climbing again — this time toward Isola 2000, and beyond, to Col de la Lombarde.
 
-{% image "Road to Isola 2000", "France-380", "tour-of-alps-part-4" %}
-
 The beginning felt steep — for a while, at least. A few switchbacks, almost hidden between the forest and the ravine, helped me gain elevation quickly. Occasionally, the road crossed an MTB trail. It was hot again — just how I liked it, around 28 degrees Celsius — and once more, I was having the time of my life. I rode steadily, not overexerting myself. Of course, I felt the exhaustion from the entire trip, but the climb felt comfortable. I chatted briefly with another bikepacker — he was on a gravel bike — about the differences in gearing, then continued on.
-
-{% image "Road to Isola 2000", "France-381", "tour-of-alps-part-4" %}
-{% image "Waterfall just below the village", "France-382", "tour-of-alps-part-4" %}
 
 Approaching Isola 2000, I noticed the painted road markings, reminding me of how, less than a month ago, Pogačar had dominated here. That’s when I realized — my bottles were empty. With six kilometers still to the summit, I frantically started looking for water. But there was none. No tap nearby, no accessible stream, no open bar or shop. There was no one to ask.
 
-{% image-single "Road to Isola 2000", "France-383", "tour-of-alps-part-4" %}
-{% image-single "Road to Isola 2000", "France-384", "tour-of-alps-part-4" %}
+{% images 2 %}
+{% image "Road to Isola 2000", "France-381", "tour-of-alps-part-4" %}
+{% image "Waterfall just below the village", "France-382", "tour-of-alps-part-4" %}
+{% images-end %}
+
+{% images 3 %}
+{% image "Road to Isola 2000", "France-380", "tour-of-alps-part-4" %}
+{% image "Road to Isola 2000", "France-383", "tour-of-alps-part-4" %}
+{% image "Road to Isola 2000", "France-384", "tour-of-alps-part-4" %}
+{% images-end %}
 
 After passing the village, the road steepened again. Soon, my body started sending warning signs. No water left. Twenty-seven thousand meters of elevation gain over the last two weeks. I had to work really hard not to blow up — both mentally and physically.
 
 The road climbed under ski lifts, winding through open terrain with magnificent views. During these last 200 meters of elevation, one thought kept me going — I was really, really glad this was my last pass of the trip.
 
-{% image-single "Climbing Col de la Lombarde", "France-386", "tour-of-alps-part-4" %}
-{% image-single "Mountains over Isola 2000", "France-387", "tour-of-alps-part-4" %}
-
 Originally, I had planned to end the day after the descent, somewhere between Vinadio and Demonte. The next day, I intended to cross Col de Fauniera, descend to Stroppo, and then tackle Col de Sampeyre to the village of the same name. But with my stamina dangerously dwindling over the last few days, I had to give up and leave those two climbs for another time. Of course, part of me regretted cutting the route short and missing the opportunity to see more of this incredible terrain. But one look at the climb profiles made me realize that I would either fail to reach the summits or destroy my muscles beyond imagination.
-
-{% image "Climbing Col de la Lombarde", "France-385", "tour-of-alps-part-4" %}
-{% image "Col de la Lombarde", "France-389", "tour-of-alps-part-4" %}
 
 Closely before the pass I turned my head unit to elevation profile and started counting meters left. With that in sight, I rolled onto the Col de la Lombarde.
 
 > I stop, take a deep breath, and look around, taking in the landscape. And then, suddenly, I feel the emotions flooding me. I feel joy of standing in such an indescribably beautiful place. Happiness of conquering yet another climb. A bittersweet sadness, knowing this was the last ascent of my journey. And above all, I feel gratitude - for the strength and health that allowed me to take on such a monstrous challenge, for the privilege of experiencing it fully. I give in to all these emotions, all at once, and feel free. Free and liberated.
 
-{% image-single "View from Col de la Lombarde", "France-391", "tour-of-alps-part-4" %}
-{% image-single "View from Col de la Lombarde", "France-393", "tour-of-alps-part-4" %}
+{% images 2 %}
+{% image "Climbing Col de la Lombarde", "France-386", "tour-of-alps-part-4" %}
+{% image "Mountains over Isola 2000", "France-387", "tour-of-alps-part-4" %}
+{% images-end %}
+
+{% images 2 %}
+{% image "Climbing Col de la Lombarde", "France-385", "tour-of-alps-part-4" %}
+{% image "Col de la Lombarde", "France-389", "tour-of-alps-part-4" %}
+{% images-end %}
+
+{% image "View from Col de la Lombarde", "France-391", "tour-of-alps-part-4" %}
+{% image "View from Col de la Lombarde", "France-393", "tour-of-alps-part-4" %}
 
 But the day was far from over. It was getting late, and I still had a descent to ride!
 
@@ -133,26 +142,32 @@ I ate my last freeze-dried meal, ordered an espresso and a can of Coke, and rece
 
 Since I had abandoned my original plan about 30 km earlier, I asked a friend to plot a new route from my campsite to the hotel — so the ride would be a surprise. My only request? It had to be flat. The route followed the foothills before turning through the plains toward my destination.
 
-{% image "Plains of Piedmont", "France-395", "tour-of-alps-part-4" %}
-
 I barely made it 10 kilometers before my brain screamed: I’m BORED.
 
 I rarely ride flat routes with little elevation, especially alone, for exactly this reason. With no climbs, descents, or ever-changing terrain, ticking off miles always felt monotonous to me. Pair that with my physique, built for climbing, and my lack of high-speed raw power, and I just couldn’t enjoy it as much as I would have liked.
 
-{% image-single "Little roads", "France-400", "tour-of-alps-part-4" %}
-{% image-single "Costigliole Saluzzo", "France-401", "tour-of-alps-part-4" %}
+{% image "Plains of Piedmont", "France-395", "tour-of-alps-part-4" %}
+
+{% images 2 %}
+{% image "Little roads", "France-400", "tour-of-alps-part-4" %}
+{% image "Costigliole Saluzzo", "France-401", "tour-of-alps-part-4" %}
+{% images-end %}
 
 Still, the route led me through small, picturesque towns and quiet side roads, offering some variety against the never-ending fields. Traffic wasn’t an issue, and I spun gently, keeping my power low. Riding through orchards, I got Komooted and gravelled again! This time, though, it was fun — no gradients to battle, just an enjoyable, premium gravel experience. Eventually, the track merged with a bike lane — an old railway line converted into a cycling path through the vast plains of Piedmont. Surrounded by cornfields, it made for a peaceful, almost meditative ride.
-
-{% image "Gravel Premium", "France-403", "tour-of-alps-part-4" %}
-{% image "Mountains in the distance", "France-404", "tour-of-alps-part-4" %}
 
 But after Vigone, the path veered toward Pinerolo, and I had to turn toward Turin. With every kilometer, I felt myself drawing closer to my goal — the end of my adventure. I barely noticed when the open fields transformed into a more suburban landscape. Before I knew it, I was navigating the bustling roads of Piedmont’s capital. Unlike two weeks prior, this time my experience in the city was, at worst, neutral — no aggressive drivers, no bike lanes disappearing into the middle of parks. Just a typical urban commute.
 
 Throughout the ride, I could feel my front wheel getting softer — ever so slightly. By the time I was weaving through Turin, it was already bouncy, but I hoped I could roll with it. Finally, less than two kilometers from my destination, I bottomed out on a pothole. Fearing I might destroy my rims, I stopped and pumped it just enough to get me to the hotel.
 
+{% images 2 %}
+{% image "Gravel Premium", "France-403", "tour-of-alps-part-4" %}
+{% image "Mountains in the distance", "France-404", "tour-of-alps-part-4" %}
+{% images-end %}
+
+{% images 2 %}
 {% image "Rail trail", "France-409", "tour-of-alps-part-4" %}
 {% image "Back where it all began", "France-410", "tour-of-alps-part-4" %}
+{% images-end %}
 
 After a little over four hours of riding, I arrived at Piazza Bodoni just before 1 p.m., closing the loop on my grand Tour of the Alps. I felt a mix of emotions — sadness that the adventure was over, but also relief at having completed it unscathed and almost exactly as planned.
 
@@ -162,20 +177,31 @@ Back at my hotel, I showered and disassembled my bike — knowing that if I didn
 
 I spent my last full day in Italy playing tourist. I visited the Lavazza Museum, took a long walk through lesser-known green spaces along two rivers, and then turned toward more touristy paths through parks and piazzas. I wrapped up the day with a visit to the Royal Palace and its exquisite painting collection.
 
-{% image "Banks of Dora Riparia", "France-414", "tour-of-alps-part-4" %}
-{% image "Playing tourist", "France-416", "tour-of-alps-part-4" %}
-
 Of course, I considered squeezing in a short ride, as expected the day before, but my bike was already disassembled and safely packed away — preventing any last-minute temptations.
 
 The next morning, I researched transport options and, this time, opted for a bus to Porta Susa, sparing myself an hour-long struggle with Turin’s historic yet notoriously uneven pavements.
 
-{% image-single "Pad", "France-417", "tour-of-alps-part-4" %}
-{% image-single "Woman, Life, Freedom", "France-418", "tour-of-alps-part-4" %}
-{% image-single "Ponte Vittorio Emanuele I", "France-423", "tour-of-alps-part-4" %}
-{% image-single "The Way We Dress Doesn't Mean Yes", "France-426", "tour-of-alps-part-4" %}
-{% image-single "Fontanna del 12 mesi", "France-435", "tour-of-alps-part-4" %}
+{% images 2 %}
+{% image "Banks of Dora Riparia", "France-414", "tour-of-alps-part-4" %}
+{% image "Playing tourist", "France-416", "tour-of-alps-part-4" %}
+{% images-end %}
+
+{% images 2 %}
+{% image "Pad", "France-417", "tour-of-alps-part-4" %}
+{% image "Woman, Life, Freedom", "France-418", "tour-of-alps-part-4" %}
+{% images-end %}
+
+{% images 2 %}
+{% image "Ponte Vittorio Emanuele I", "France-423", "tour-of-alps-part-4" %}
+{% image "The Way We Dress Doesn't Mean Yes", "France-426", "tour-of-alps-part-4" %}
+{% images-end %}
+
+{% images 2 %}
+{% image "Fontanna del 12 mesi", "France-435", "tour-of-alps-part-4" %}
 {% image "Squirrel", "France-437", "tour-of-alps-part-4" %}
-{% image-single "Fontanna del 12 mesi", "France-436", "tour-of-alps-part-4" %}
+{% images-end %}
+
+{% image "Fontanna del 12 mesi", "France-436", "tour-of-alps-part-4" %}
 
 > I sit on the plane, gazing through the window as we turn onto the runway. The Torinese terminal slides past, fading quickly into the blur of acceleration. In the distance, the Alps are veiled by the clouds of worsening weather, almost as if whispering, _“Your trip is over. It’s time to go home now.”_ But deep down, I know I’ll return — sooner than three years this time, I hope. They’re quietly becoming my favorite place.
 >

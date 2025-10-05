@@ -55,12 +55,14 @@ Walcząc z pogodą nawet nie zauważyłam, kiedy deszcz ustał. Wiatr wciąż wi
 
 Col de la Bonette to wąska przełączka na wysokości 2 715 m — zaledwie 59 metrów niżej niż Col de l’Iseran. Leży poniżej szczytu o tej samej nazwie. Dotarłam do małego skrzyżowania wykutego w skale i rozpoczęłam ostatni zryw ku górze. Bonette okala najwyżej położona asfaltowa droga we Francji, sięgająca dokładnie 2 802 metrów. Ostatni kilometr podjazdu jest jednocześnie tym najbardziej stromym. Cała pętla to wąska, jednokierunkowa droga. Piramidalny wierzchołek góry — jałowy, czarny, niemal księżycowy stos kamieni — stanowił wyraźny kontrast wobec zieleni otaczających dolin.
 
-{% image "Cime de la Bonette", "France-375", "tour-of-alps-part-4" %}
-{% image "Cime de la Bonette", "France-377", "tour-of-alps-part-4" %}
-
 Walczyłam z całych sił, by dotrzeć na szczyt, co jakiś czas wstając z siodełka. Dzięki wiatrowi byłam już całkowicie sucha, a deszcz był tylko wspomnieniem, żywym jedynie w postaci mokrego asfaltu pod kołami. Ostatnie metry niemal sprintowałam, po czym zatrzymałam się i wypuściłam z siebie ogromne westchnienie ulgi. Zauważyłam przy tym, że po niemal dwóch tygodniach na wysokości, przejeżdżając przez najwyżej położone asfalty we Francji — tego dnia nie odczuwałam już skutków niskiej ilości tlenu, w przeciwieństwie do l’Iseran zaledwie kila dni wcześniej. Magia aklimatyzacji.
 
 Na szczycie był jeszcze jeden kolarz. Przywitaliśmy się, gratulując sobie nawzajem. Początkowo planowałam wejść na sam wierzchołek, ale wiatr był zbyt silny, a temperatura nadal utrzymywała się w granicach 4–5 stopni, więc porzuciłam ten pomysł. Szybko zrobiłam kilka zdjęć i uznałam, że najwyższa pora uciec z tej niegościnnej alpejskiej strefy.
+
+{% images 2 %}
+{% image "Cime de la Bonette", "France-375", "tour-of-alps-part-4" %}
+{% image "Cime de la Bonette", "France-377", "tour-of-alps-part-4" %}
+{% images-end %}
 
 {% image "Widok z Cime de la Bonette", "France-376", "tour-of-alps-part-4" %}
 
@@ -74,36 +76,43 @@ Mijając zniszczone ruiny starego obozu wojskowego, zauważyłam, że wiatr cał
 
 Do Saint-Étienne dotarłam o 13:00 — wciąż było wcześnie. Było znów ciepło i słonecznie, i nagle wszystko wydawało się przyjemne. Prognozy nie zapowiadały już żadnego deszczu. Podczas wspinaczki na Bonette czułam się dobrze i świeżo, i mimo absolutnie fatalnej pogody, fizycznie nie miałam żadnego kryzysu. Postanowiłam jechać dalej. Zaczęłam zjazd do miejscowości Isola, skąd znów zaczęłam się wspinać — tym razem w kierunku Isola 2000, i dalej na Col de la Lombarde.
 
-{% image "Podjazd do Isola 2000", "France-380", "tour-of-alps-part-4" %}
-
 Początek podjazdu wydawał się stromy — przynajmniej przez chwilę. Kilka agrafek, niemal ukrytych między lasem a urwiskiem, pozwoliło mi szybko zyskiwać wysokość. Co jakiś czas drogę przecinała trasa MTB. Znów zrobiło się ciepło, tak jak lubię — około 28 stopni Celsjusza. Bawiłam się świetnie. Jechałam równym tempem, nie przeciążając się. Oczywiście czułam zmęczenie całym wyjazdem, ale podjeżdżało mi się komfortowo. Krótko porozmawiałam z napotkanym gravelowcem o różnicach w przełożeniach, a potem ruszyłam dalej.
-
-{% image "Droga do Isola 2000", "France-381", "tour-of-alps-part-4" %}
-{% image "Wodospad tuż poniżej Isola 2000", "France-382", "tour-of-alps-part-4" %}
 
 Zbliżając się do wioski zauważyłam namalowane na drodze napisy, przypominające mi, że niecały miesiąc wcześniej Pogačar zdominował tu konkurencję. Nagle zdałam sobie sprawę, że właśnie skończyło mi się picie! Do szczytu pozostało jeszcze sześć kilometrów, więc gorączkowo zaczęłam szukać wody. Bezskutecznie. Żadnego kraniku w pobliżu, żadnego bezpiecznego strumienia, żadnego otwartego baru ani sklepu. Nie było nawet kogo poprosić o kranówkę.
 
-{% image-single "Droga do Isola 2000", "France-383", "tour-of-alps-part-4" %}
-{% image-single "Droga do Isola 2000", "France-384", "tour-of-alps-part-4" %}
+{% images 2 %}
+{% image "Droga do Isola 2000", "France-381", "tour-of-alps-part-4" %}
+{% image "Wodospad tuż poniżej Isola 2000", "France-382", "tour-of-alps-part-4" %}
+{% images-end %}
+
+{% images 3 %}
+{% image "Podjazd do Isola 2000", "France-380", "tour-of-alps-part-4" %}
+{% image "Droga do Isola 2000", "France-383", "tour-of-alps-part-4" %}
+{% image "Droga do Isola 2000", "France-384", "tour-of-alps-part-4" %}
+{% images-end %}
 
 Zaraz za wioską droga znów się wypiętrzyła. Wkrótce moje ciało zaczęło wysyłać sygnały ostrzegawcze. Zero wody. Dwadzieścia siedem tysięcy metrów przewyższenia w ciągu ostatnich dwóch tygodni. Musiałam się bardzo pilnować, żeby nie „wybuchnąć” — ani fizycznie, ani psychicznie.
 
 Droga wspinała się pod wyciągami narciarskimi, wijąc się przez Alpejskie hale z oszałamiającymi widokami. Podczas ostatnich 200 metrów przewyższenia jedna myśl dodawała mi sił — że to moja ostatnia przełęcz tej wyprawy.
 
-{% image-single "Podjeżdżając Col de la Lombarde", "France-386", "tour-of-alps-part-4" %}
-{% image-single "Góry ponad Isola 2000", "France-387", "tour-of-alps-part-4" %}
-
 Początkowo planowałam zakończyć ten dzień po zjeździe, gdzieś między Vinadio a Demonte. Następnego dnia chciałam przekroczyć Col de Fauniera, zjechać do Stroppo, a potem zmierzyć się z Col de Sampeyre i dotrzeć do wioski o tej samej nazwie. Ale z niebezpiecznie słabnącymi przez ostatnie dni nogami musiałam odpuścić i zostawić te dwa podjazdy na inną okazję. Część mnie oczywiście żałowała skrócenia trasy i straconej szansy na zobaczenie nowych terenów. Ale jedno spojrzenie na profile podjazdów uświadomiło mi, że albo bym ich nie podjechała, albo "zniszczyła się" poza najśmielsze wyobrażenia.
-
-{% image "Podjazd do Col de la Lombarde", "France-385", "tour-of-alps-part-4" %}
-{% image "Col de la Lombarde", "France-389", "tour-of-alps-part-4" %}
 
 Tuż przed przełęczą włączyłam na liczniku profil wysokości i zaczęłam odliczać metry do końca. Patrząc na Wahoo, wtoczyłam się na Col de la Lombarde.
 
 > Zatrzymuję się, biorę głęboki oddech i rozglądam się, chłonąc krajobraz. I wtedy nagle zalewa mnie fala emocji. Czuję radość z bycia w tak niewyobrażalnie pięknym miejscu. Szczęście z pokonania kolejnego podjazdu. Słodko-gorzką melancholię, wiedząc, że to ostatnia przełęcz tej podróży. A przede wszystkim wdzięczność — za siłę i zdrowie, które pozwoliły mi podjąć się tak ogromnego wyzwania, za przywilej przeżycia tej przygody w pełni. Pozwalam sobie na te wszystkie emocje, wszystkie naraz, i czuję się wolna. Wolna i wyzwolona.
 
-{% image-single "Widok z Col de la Lombarde", "France-391", "tour-of-alps-part-4" %}
-{% image-single "Widok z Col de la Lombarde", "France-393", "tour-of-alps-part-4" %}
+{% images 2 %}
+{% image "Podjeżdżając Col de la Lombarde", "France-386", "tour-of-alps-part-4" %}
+{% image "Góry ponad Isola 2000", "France-387", "tour-of-alps-part-4" %}
+{% images-end %}
+
+{% images 2 %}
+{% image "Podjazd do Col de la Lombarde", "France-385", "tour-of-alps-part-4" %}
+{% image "Col de la Lombarde", "France-389", "tour-of-alps-part-4" %}
+{% images-end %}
+
+{% image "Widok z Col de la Lombarde", "France-391", "tour-of-alps-part-4" %}
+{% image "Widok z Col de la Lombarde", "France-393", "tour-of-alps-part-4" %}
 
 Ale dzień się jeszcze nie skończył. Robiło się późno, a przede mną był jeszcze zjazd!
 
@@ -135,26 +144,32 @@ Zjadłam ostatni liofilizat, w barze zamówiłam espresso i puszkę coli, zgarni
 
 Ponieważ porzuciłam swój pierwotny plan około 30 km wcześniej, poprosiłam przyjaciółkę o zaplanowanie nowej trasy z campingu do hotelu – więc spora jej część była niespodzianką. Moje jedyne życzenie? Miała być płaska. Na początku prowadziła tuż u podnóży gór, by potem przez równiny skręcić do Turynu.
 
-{% image "Równiny Piedmontu", "France-395", "tour-of-alps-part-4" %}
-
 Po zaledwie 10 kilometrach zaczęłam czuć, jak mój mózg krzyczy: NUDZI MI SIĘ.
 
 Rzadko jeżdżę płaskie trasy, szczególnie sama, właśnie z tego powodu. Bez podjazdów, zjazdów i ciągle zmieniającego się terenu, odhaczanie kilometrów zawsze wydawało mi się monotonne. Dodajmy do tego moją budowę stworzoną do podjazdów, brak wystarczającej mocy, żeby utrzymać dużą prędkość na płaskich drogach, i można łatwo zrozumieć, dlaczego nie potrafię cieszyć się tym tak, jak bym chciała.
 
-{% image-single "Małe, boczne drogi", "France-400", "tour-of-alps-part-4" %}
-{% image-single "Costigliole Saluzzo", "France-401", "tour-of-alps-part-4" %}
+{% image "Równiny Piedmontu", "France-395", "tour-of-alps-part-4" %}
+
+{% images 2 %}
+{% image "Małe, boczne drogi", "France-400", "tour-of-alps-part-4" %}
+{% image "Costigliole Saluzzo", "France-401", "tour-of-alps-part-4" %}
+{% images-end %}
 
 Trasa prowadziła mnie przez małe, malownicze miasteczka i ciche boczne drogi, oferując na szczęście nieco różnorodności wśród niekończących się pól. Ruch nie stanowił problemu, więc pedałowałam spokojnie, starając się trzymać niską moc. Przejeżdżając przez sady, znów zostałam "Skomootowana"! Tym razem jednak było to całkiem przyjemne – bez podjazdów do pokonania, po prostu lekkie szutrowe "premiumy". Później trasa połączyła się ze ścieżką rowerową – dawną linią kolejową przekształconą w drogę dla rowerów, prowadzącą przez rozległe równiny Piemontu. Otoczona polami kukurydzy, jechałam w spokojnym, prawie medytacyjnym rytmie.
-
-{% image "Premiumy", "France-403", "tour-of-alps-part-4" %}
-{% image "Góry w oddali", "France-404", "tour-of-alps-part-4" %}
 
 Za Vigone ścieżka kierowała się w stronę Pinerolo. Ja musiałam jednak dotrzeć do Turynu, wróciłam więc na normalne drogi. Z każdym kilometrem czułam, że zbliżam się do celu – końca tej przygody. Ledwo zauważyłam, kiedy pola zmieniły się w podmiejski krajobraz, aby już po chwili jechać zatłoczonymi drogami stolicy Piemontu. W przeciwieństwie do jazdy dwa tygodnie wcześniej, tym razem nie napotkałam żadnych agresywnych kierowców czy pasów rowerowych znikające w środku parków. Po prostu typowy przejazd przez miasto.
 
 W trakcie całej jazdy czułam, że moje przednie koło mięknie – co prawda ledwie odczuwalnie, ale jednak. Gdy jechałam już przez Turyn, opona była już całkiem miękka, ale liczyłam, że jednak uda mi jakoś dojechać. Niestety, na mniej niż dwa kilometry przed celem, dobiłam obręcz, wpadając w dziurę w jezdni. Obawiając się, że ją zniszczę, zatrzymałam się i dopompowałam na tyle, by dotrzeć do hotelu.
 
+{% images 2 %}
+{% image "Premiumy", "France-403", "tour-of-alps-part-4" %}
+{% image "Góry w oddali", "France-404", "tour-of-alps-part-4" %}
+{% images-end %}
+
+{% images 2 %}
 {% image "Szlak kolejowy", "France-409", "tour-of-alps-part-4" %}
 {% image "Tam, gdzie to się wszystko zaczęło", "France-410", "tour-of-alps-part-4" %}
+{% images-end %}
 
 Po nieco ponad czterech godzinach jazdy, tuż przed 13:00, dotarłam na Piazza Bodoni, kończąc moją pętlę przez Alpy. Czułam mieszankę emocji – smutek, że przygoda dobiegła końca, ale również ulgę i radość, że udało mi się ją zakończyć bez uszczerbku na zdrowiu i niemal całkowicie zgodnie z planem.
 
@@ -164,20 +179,31 @@ Wróciwszy do hotelu, wzięłam prysznic i rozebrałam rower – wiedząc, że j
 
 Ostatni dzień we Włoszech spędziłam bawiąc się w zwykłą turystkę. Odwiedziłam Muzeum Lavazzy, poszłam na bardzo długi spacer mniej uczęszczanymi ścieżkami wzdłuż dwóch rzek płynących przez Turyn, po czym skierowałam się na bardziej wydeptane ścieżki przez znane parki i place. Dzień zakończyłam wizytą w Pałacu Królewskim i jego przepięknej galerii sztuki.
 
-{% image "Nad Dora Riparia", "France-414", "tour-of-alps-part-4" %}
-{% image "Bawiąc się w turystkę", "France-416", "tour-of-alps-part-4" %}
-
 Oczywiście rozważałam, czy jednak nie wcisnąć gdzieś krótkiej przejażdżki. Na szczęście przewidziałam tę pokusę - rower był już rozłożony i bezpiecznie spakowany.
 
 Następnego ranka sprawdziłam opcje transportu i tym razem wybrałam autobus do Porta Susa, oszczędzając sobie godziny zmagań z historycznymi, ale niesłychanie nierównymi chodnikami Turynu.
 
-{% image-single "Pad", "France-417", "tour-of-alps-part-4" %}
-{% image-single "Kobieta, Życie, Wolność", "France-418", "tour-of-alps-part-4" %}
-{% image-single "Ponte Vittorio Emanuele I", "France-423", "tour-of-alps-part-4" %}
-{% image-single "Ubiór nie oznacza zgody!", "France-426", "tour-of-alps-part-4" %}
-{% image-single "Fontanna del 12 mesi", "France-435", "tour-of-alps-part-4" %}
+{% images 2 %}
+{% image "Nad Dora Riparia", "France-414", "tour-of-alps-part-4" %}
+{% image "Bawiąc się w turystkę", "France-416", "tour-of-alps-part-4" %}
+{% images-end %}
+
+{% images 2 %}
+{% image "Pad", "France-417", "tour-of-alps-part-4" %}
+{% image "Kobieta, Życie, Wolność", "France-418", "tour-of-alps-part-4" %}
+{% images-end %}
+
+{% images 2 %}
+{% image "Ponte Vittorio Emanuele I", "France-423", "tour-of-alps-part-4" %}
+{% image "Ubiór nie oznacza zgody!", "France-426", "tour-of-alps-part-4" %}
+{% images-end %}
+
+{% images 2 %}
+{% image "Fontanna del 12 mesi", "France-435", "tour-of-alps-part-4" %}
 {% image "Wiewiórka", "France-437", "tour-of-alps-part-4" %}
-{% image-single "Fontanna del 12 mesi", "France-436", "tour-of-alps-part-4" %}
+{% images-end %}
+
+{% image "Fontanna del 12 mesi", "France-436", "tour-of-alps-part-4" %}
 
 > Samolot wjeżdza na pas startowy, a ja gapię się przez okno. Przyspieszamy. Turyński terminal błyskawicznie ucieka, niknąc gdzieś z tyłu. W oddali Alpy schowały się w welonie chmur pogarszającej się pogody, jakby szepcząc _"Twoja przygoda dobiegła końca. Czas wrócić do domu."_ Lecz głęboko w sobie wiem, że wrócę — szybciej, niż za trzy lata. Alpy powoli stają się moim ulubionym miejscem.
 >

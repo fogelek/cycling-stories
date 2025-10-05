@@ -1,14 +1,18 @@
 function shortcodeImages(eleventyConfig) {
+  eleventyConfig.addShortcode("images", function (count) {
+    return `<div class="images" style="--image-count: ${count}">`;
+  });
+
+  eleventyConfig.addShortcode("images-end", function () {
+    return `</div>`;
+  });
+
   eleventyConfig.addShortcode("image", function (alt, url, media) {
     return `<div class="image" title="${alt}"><img src="/media/${media}/${url}.webp" alt="${alt}" loading="lazy"></div>`;
   });
 
   eleventyConfig.addShortcode("image-single", function (alt, url, media) {
     return `<div class="image-single" title="${alt}"><img src="/media/${media}/${url}.webp" alt="${alt}" loading="lazy"></div>`;
-  });
-
-  eleventyConfig.addShortcode("image-gallery", function (alt, url, media) {
-    return `<div class="image-gallery" title="${alt}"><img src="/media/${media}/${url}.webp" alt="${alt}" loading="lazy"></div>`;
   });
 
   eleventyConfig.addShortcode("profile", function (title, segment) {

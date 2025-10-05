@@ -7,42 +7,35 @@
 @import "variables/palette";
 @import "variables/components";
 
-header {
-  align-content: center;
-  justify-items: center;
-  height: 10rem;
-
-  a {
-    display: flex;
-    flex-direction: column;
-    row-gap: 0.5rem;
-    line-height: 2.5rem;
-    margin: 2rem auto;
-    font-size: 4rem;
-    width: fit-content;
-    text-align: center;
-  }
-
-  .title::after {
-    @include underline(100%, $color-primary, $color-secondary);
-    height: 0.3rem;
-    margin-top: 0.8rem;
-  }
-
-  .subtitle {
-    font-size: 2.2rem;
-  }
-
-  .socials {
-    display: none;
-  }
+body {
+  background: transparent;
 }
 
 main {
   margin-top: 1rem;
   width: fit-content;
+  display: grid;
+  position: relative;
 
   img {
-    border-radius: 16px;
+    border-radius: 1rem;
+    height: 100%;
+  }
+
+  span,
+  a {
+    grid-row: 1;
+    grid-column: 1;
+  }
+
+  a {
+    position: absolute;
+    bottom: 0;
+    width: calc(100% - 2rem);
+    padding: 1rem;
+    border: none;
+    background-color: #000c;
+    color: #f8f8f2;
+    border-radius: 0 0 1rem 1rem;
   }
 }

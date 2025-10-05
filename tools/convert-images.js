@@ -26,7 +26,7 @@ const convert = (name) => {
     fs.mkdirSync(`dist/${filePath.dir}`, { recursive: true });
   }
   const i = sharp(fs.readFileSync(src));
-  i.resize({height: 1200, withoutEnlargement: true}).toFormat("webp", { quality: 80 });
+  i.resize({height: filePath.name === "thumbnail" ? 450 : 1200, withoutEnlargement: true}).toFormat("webp", { quality: 80 });
 
   return i
     .toFile(dst)
