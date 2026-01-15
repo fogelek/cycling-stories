@@ -8,7 +8,6 @@ media: destination-tauern-part-2
 switch: /pl/kierunek-taury-czesc-2
 thumb: IMG_2327
 caption: Grimming
-mini: media/destination-tauern-part-2/IMG_2327.webp
 date: 2025-10-05
 ---
 

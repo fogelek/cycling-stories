@@ -13,4 +13,6 @@ $color-secondary-background: color.adjust($color-secondary, $lightness: -20%);
   --color-primary-button: #{color.adjust($color-primary, $lightness: -30%)};
   --color-background-dialog: #0009;
   --color-foreground-dialog: #f8f8f2;
+  --color-black: #000;
+  --color-white: #fff;
 }

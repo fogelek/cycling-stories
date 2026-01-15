@@ -18,7 +18,7 @@
     <meta name="generator" content="Eleventy">
     {% if title %}
     <meta property='og:title' content='Cycling Stories - {{ title }}'/>
-    <meta property='og:image' content='{{ metadata.url }}/images/thumbnails/{{ title | slug }}.png'/>
+    <meta property='og:image' content='{{ metadata.url }}/images/thumbnails/{{ media }}.png'/>
     <meta property='og:url' content='{{ metadata.url }}/{{ lang }}/{{ title | slug }}'/>
     {%  else %}
     <meta property='og:title' content='Cycling Stories'/>
@@ -26,8 +26,8 @@
     <meta property='og:description' content='{{ "subtitle" | i18n(lang) }}'/>
     <meta property='og:url' content='{{ metadata.url }}{% if lang === "pl" %}/{{ lang }}{% endif %}'/>
     {%  endif %}
-    <meta property='og:image:width' content='800' />
-    <meta property='og:image:height' content='550' />
+    <meta property='og:image:width' content='1200' />
+    <meta property='og:image:height' content='630' />
     <meta property="og:type" content="website" />
     <title>{{ "title" | i18n(lang) }}</title>
     <link rel="stylesheet" href="{{ '/css/style.css' | url }}"/>
@@ -54,12 +54,12 @@
         </g>
         <g>
             <path
-                    id="star"
-                    d="M 5,0
-          A 10,10 0 0,0 10,5
-          A 10,10 0 0,0 5,10
-          A 10,10 0 0,0 0,5
-          A 10,10 0 0,0 5,0"
+                id="star"
+                d="M 5,0
+                A 10,10 0 0,0 10,5
+                A 10,10 0 0,0 5,10
+                A 10,10 0 0,0 0,5
+                A 10,10 0 0,0 5,0"
             ></path>
             <use href="#star" transform="scale(1.5)" id="star-large" />
             <use href="#star" transform="scale(0.7)" id="star-small" />
@@ -79,31 +79,37 @@
         </g>
         <g>
             <path
-                    id="cloud-outer"
-                    d="M0,65
-              A32,32 0 0,1 45,40
-              A40,40 0 0,1 90,30
-              A25,25 0 0,1 130,30
-              A15,15 0 0,1 150,20
-              A25,25 0 0,1 170,10
-              A20,20 0 0,1 200,-10
-              L200,0
-              L200,65"
+                id="cloud-outer"
+                d="M0,65
+                A32,32 0 0,1 45,40
+                A40,40 0 0,1 90,30
+                A25,25 0 0,1 130,30
+                A15,15 0 0,1 150,20
+                A25,25 0 0,1 170,10
+                A20,20 0 0,1 200,-10
+                L200,0
+                L200,65"
             />
             <path
-                    id="cloud-inner"
-                    d="M0,65
-              A32,32 0 0,1 45,50
-              A40,40 0 0,1 87,45
-              A55,55 0 0,1 145,43
-              A15,15 0 0,1 150,38
-              A30,30 0 0,1 170,30
-              A30,30 0 0,1 200,13
-              L200,0
-              L200,65"
+                id="cloud-inner"
+                d="M0,65
+                A32,32 0 0,1 45,50
+                A40,40 0 0,1 87,45
+                A55,55 0 0,1 145,43
+                A15,15 0 0,1 150,38
+                A30,30 0 0,1 170,30
+                A30,30 0 0,1 200,13
+                L200,0
+                L200,65"
             />
         </g>
-        <g id="craters"></g>
+        <g id="ig">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+        </g>
+        <g id="strava">
+            <path d="M6.9 8.8l2.5 4.5 2.4-4.5h-1.5l-.9 1.7-1-1.7z" opacity=".6"/>
+            <path fill-rule="evenodd" d="M7.2 2.5l3.1 6.3H4zm0 3.8l1.2 2.5H5.9z"/>
+        </g>
     </defs>
 </svg>
     <div class="bg-container">

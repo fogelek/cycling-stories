@@ -17,6 +17,8 @@ $color-box-background: var(--color-box-background);
 $color-shadow: var(--color-shadow);
 $color-background-dialog: var(--color-background-dialog);
 $color-foreground-dialog: var(--color-foreground-dialog);
+$color-black: var(--color-black);
+$color-white: var(--color-white);
 
 @mixin box-colors-reset {
   background: inherit;

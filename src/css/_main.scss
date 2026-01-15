@@ -29,7 +29,7 @@ ul.posts {
 
     .box {
       background: none;
-      z-index: 10;
+      z-index: 2;
       border-radius: 10px;
 
       &::before {
@@ -37,7 +37,7 @@ ul.posts {
       }
 
       &:hover::before  {
-          background: $color-background-light-smoke;
+          background: #0007;
         }
     }
   }
@@ -60,9 +60,6 @@ ul.posts {
   .image {
     grid-column: 1;
     grid-row: 1;
-  }
-
-  .image {
   }
 
   li {

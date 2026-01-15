@@ -8,6 +8,7 @@
     "js:prod": "terser src/js/* --compress -o dist/js/main.min.js",
     "js:dev": "terser src/js/* --source-map --watch -o dist/js/main.js",
     "convert-images": "node tools/convert-images.js",
+    "generate-images": "node tools/generate-images.js ${0}",
     "eleventy:serve": "eleventy --serve",
     "eleventy:build": "eleventy",
     "start": "npm run css:dev & npm run eleventy:serve",
@@ -24,6 +25,8 @@
     "markdown-it": "^13.0.1",
     "markdown-it-anchor": "^8.6.4",
     "markdown-it-attrs": "^4.1.4",
+    "markdown-it-mark": "^4.0.0",
+    "markdown-it-span": "^1.0.0",
     "postcss-cli": "^9.1.0",
     "sass": "^1.49.11",
     "terser": "^5.15.0"

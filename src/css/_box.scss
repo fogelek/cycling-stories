@@ -29,7 +29,7 @@ article-box {
       height: 100%;
       border-radius: 10px;
       background: $color-box-background;
-      transition: 300ms ease;
+      transition: var(--animation-duration) ease;
     }
   }
 

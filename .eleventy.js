@@ -1,11 +1,12 @@
 const markdownIt = require("markdown-it");
 const markdownAttributes = require("markdown-it-attrs");
 const markdownAnchor = require("markdown-it-anchor");
+const markdownMark = require('markdown-it-mark');
 const socialImages = require("@11tyrocks/eleventy-plugin-social-images");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const shortcodeImages = require("./eleventy/images");
 const shortcodeEmbeds = require("./eleventy/embeds");
-const filterI18n = require("./eleventy/i18n");
+const initializei18n = require("./eleventy/i18n");
 const { minify } = require("terser");
 
 module.exports = function (eleventyConfig) {
@@ -17,7 +18,8 @@ module.exports = function (eleventyConfig) {
 
   let markdownLib = markdownIt(options)
     .use(markdownAttributes)
-    .use(markdownAnchor);
+    .use(markdownAnchor)
+    .use(markdownMark);
 
   eleventyConfig.setLibrary("md", markdownLib);
 
@@ -40,7 +42,7 @@ module.exports = function (eleventyConfig) {
 
   shortcodeImages(eleventyConfig);
   shortcodeEmbeds(eleventyConfig);
-  filterI18n(eleventyConfig);
+  initializei18n(eleventyConfig);
 
   eleventyConfig.addNunjucksAsyncFilter(
     "jsmin",

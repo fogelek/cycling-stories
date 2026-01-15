@@ -1,6 +1,12 @@
 function shortcodeImages(eleventyConfig) {
-  eleventyConfig.addShortcode("images", function (count) {
-    return `<div class="images" style="--image-count: ${count}">`;
+  eleventyConfig.addShortcode("images", function (count = 0) {
+    const style = count > 0 ? ` style="--image-count: ${count};"` : "";
+    const className = count > 0 ? "images fixed-width" : "images";
+    return `<div class="${className}"${style}>`;
+  });
+
+  eleventyConfig.addShortcode("gallery", function () {
+    return `<div class="gallery">`;
   });
 
   eleventyConfig.addShortcode("images-end", function () {

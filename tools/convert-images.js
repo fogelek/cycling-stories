@@ -3,6 +3,7 @@ const path = require("path");
 const sharp = require("sharp");
 
 let files = [];
+let thumbnails = [];
 
 const addDir = (dir) =>
   fs
@@ -12,6 +13,25 @@ const addDir = (dir) =>
 
 addDir("images");
 
+const processOgImage = (file) => {
+  const dirs = file.name.split('/');
+  const targetName = `dist/images/thumbnails/${dirs[dirs.length - 1]}.png`;
+  if (fs.existsSync(targetName)) {
+    return;
+  }
+  
+  console.log(`Processing og thumbnail for: ${file.src} -> ${targetName}`);
+
+  const i = sharp(fs.readFileSync(file.src));
+  i.resize({ width: 1200, height: 630, fit: 'cover' }).toFormat("png");
+
+  return i
+    .toFile(targetName)
+    .then(() => console.log("Converted", targetName))
+    .catch((e) => console.log("Failed converting", targetName, e, "skipping..."));
+
+}
+
 const media = fs.readdirSync("src/media").filter(file => file !== '.DS_Store');
 media.forEach((dir) => addDir(`media/${dir}`));
 
@@ -19,6 +39,11 @@ const convert = (name) => {
   const src = `src/${name}`;
   const filePath = path.parse(name);
   const dst = `dist/${filePath.dir}/${filePath.name}.webp`;
+
+  if (filePath.name === "thumbnail") {
+    thumbnails.push({name: filePath.dir, src: src });
+  }
+
   if (fs.existsSync(dst)) {
     return;
   }
@@ -37,5 +62,13 @@ const convert = (name) => {
 const promises = files.map((name) => convert(name));
 
 Promise.all(promises)
-  .then(() => console.log("Done"))
+  .then(() => console.log("Done processing images"))
   .catch((e) => console.error(e));
+
+const ogImagesPromises = thumbnails.map((file) => processOgImage(file));
+
+Promise.all(ogImagesPromises)
+  .then(() => console.log("Done processing og thumbnails"))
+  .catch((e) => console.error(e));
+
+  
