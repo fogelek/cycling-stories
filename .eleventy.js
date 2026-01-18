@@ -23,6 +23,19 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.setLibrary("md", markdownLib);
 
+  // Add language-specific post collections
+  eleventyConfig.addCollection("postsEn", function(collectionApi) {
+    return collectionApi.getFilteredByTag("post").filter(post => {
+      return post.data.lang === "en";
+    });
+  });
+
+  eleventyConfig.addCollection("postsPl", function(collectionApi) {
+    return collectionApi.getFilteredByTag("post").filter(post => {
+      return post.data.lang === "pl";
+    });
+  });
+
   eleventyConfig.addFilter("dateFilter", (date) => {
     let month = (date.getMonth() + 1).toString();
     if (month.length === 1) {

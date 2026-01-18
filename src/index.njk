@@ -2,12 +2,17 @@
 layout: layouts/layout.njk
 lang: en
 switch: /pl
+pagination:
+  data: collections.postsEn
+  size: 6
+  reverse: true
+  alias: posts
+permalink: "{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}index.html"
 ---
 <ul class="posts">
-{%- for post in collections.posts | reverse -%}
-    {% if post.data.lang === lang %}
-        {% include "partials/post-tile.njk" %}
-    {% endif %}
-{%- endfor -%}
+{% for post in posts %}
+    {% include "partials/post-tile.njk" %}
+{% endfor %}
 </ul>
 
+{% include "partials/paging.njk" %}

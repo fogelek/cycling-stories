@@ -1,0 +1,25 @@
+{% if pagination.href.previous or pagination.href.next %}
+<nav class="paging" aria-label="Pagination Navigation">
+    <span class="info">
+        {{ "page" | i18n(lang) }} {{ pagination.pageNumber + 1 }} {{ "of" | i18n(lang) }} {{ pagination.hrefs.length }}
+    </span>
+
+ {% if pagination.href.previous %}
+    <a href="{{ pagination.href.previous }}" class="prev" rel="prev">
+        <article-box>
+                <span class="title">{{ "newerPosts" | i18n(lang) }}</span>
+        </article-box>
+    </a>
+    {% endif %}
+
+    {% if pagination.href.next %}
+    <a href="{{ pagination.href.next }}" class="next" rel="next">
+        <article-box>
+                <span class="title">{{ "olderPosts" | i18n(lang) }}</span>
+        </article-box>
+    </a>
+    {% endif %}
+
+</nav>
+{% endif %}
+

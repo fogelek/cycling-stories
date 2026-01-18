@@ -17,9 +17,9 @@ layout: layouts/layout.njk
     {{ content | safe }}
 </article-box>
 
-<ul class="posts">
+<nav class="posts">
     {% if previousPost %}
-    <a href="{{ previousPost.url }}">
+    <a href="{{ previousPost.url }}" rel="prev">
         <article-box>
             <img src="/media/{{ previousPost.data.media }}/thumbnail.webp" alt="{{ previousPost.data.title }}" loading="lazy">
             <h2>
@@ -32,7 +32,7 @@ layout: layouts/layout.njk
     {% endif %}
 
     {% if nextPost %}
-    <a href="{{ nextPost.url }}">
+    <a href="{{ nextPost.url }}" rel="next">
         <article-box>
             <img src="/media/{{ nextPost.data.media }}/thumbnail.webp" alt="{{ nextPost.data.title }}" loading="lazy">
             <h2>
@@ -42,4 +42,4 @@ layout: layouts/layout.njk
         </article-box>
     </a>
     {% endif %}
-</div>
+</nav>

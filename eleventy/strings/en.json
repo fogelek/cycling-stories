@@ -7,6 +7,10 @@
   "reject": "Reject",
   "nextPost": "Next post",
   "previousPost": "Previous post",
+  "olderPosts": "Older posts",
+  "newerPosts": "Newer posts",
+  "page": "Page",
+  "of": "of",
   "cookieReset": "Reset cookie settings",
   "cookieHeader": "This site uses cookies",
   "cookieContent": "This page uses cookies to remember some of your options and to measure traffic (Google Analytics). You can change your preferences using link at the bottom of the page."

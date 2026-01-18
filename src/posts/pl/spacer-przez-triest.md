@@ -1,5 +1,6 @@
 ---
 tags:
+  - post
   - gallery
 title: Spacer przez Triest
 lang: pl

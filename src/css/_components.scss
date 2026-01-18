@@ -1,7 +1,8 @@
 @use "sass:color";
 @import "variables/palette";
 
-button {
+button,
+.button {
   padding: 0.25rem 1.5rem;
   border: 1px solid $color-border-light;
   border-radius: 0.5rem;

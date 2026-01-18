@@ -1,5 +1,6 @@
 ---
 tags:
+  - post
   - gallery
 title: A Walk Through Trieste
 lang: en
